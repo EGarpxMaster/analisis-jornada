@@ -1,0 +1,8 @@
+# .streamlit/config.toml for deployment
+[server]
+headless = true
+enableCORS = false
+port = 8501
+
+[theme]
+base="light"

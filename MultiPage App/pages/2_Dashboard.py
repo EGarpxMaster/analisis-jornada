@@ -67,14 +67,15 @@ if not df_inscripciones.empty:
 else:
     st.info("No hay datos de inscripciones a workshops.")
 
-# Evolución temporal de inscripciones
-st.subheader("Evolución Temporal de Inscripciones a Workshops")
+
+# Evolución temporal de inscripciones por hora
+st.subheader("Evolución Temporal de Inscripciones a Workshops por Hora")
 if not df_inscripciones.empty and 'creado' in df_inscripciones.columns:
     df_inscripciones['creado'] = pd.to_datetime(df_inscripciones['creado'], errors='coerce')
-    df_inscripciones['fecha'] = df_inscripciones['creado'].dt.date
-    fecha_counts = df_inscripciones.groupby('fecha').size().reset_index(name='Cantidad')
-    fig_fecha = px.line(fecha_counts, x='fecha', y='Cantidad', markers=True)
-    st.plotly_chart(fig_fecha, use_container_width=True)
+    df_inscripciones['hora'] = df_inscripciones['creado'].dt.floor('h')
+    hora_counts = df_inscripciones.groupby('hora').size().reset_index(name='Cantidad')
+    fig_hora = px.line(hora_counts, x='hora', y='Cantidad', markers=True, title='Inscripciones por Hora')
+    st.plotly_chart(fig_hora, use_container_width=True)
 else:
     st.info("No hay datos de fechas de inscripciones.")
 
