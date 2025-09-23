@@ -1,239 +1,239 @@
-id,participante_email,actividad_codigo,estado,creado
-2246,240300899@ucaribe.edu.mx,W1,inscrito,2025-09-23 10:49:42
-2245,240300877@ucaribe.edu.mx,W1,inscrito,2025-09-23 10:47:15
-2244,georgina.aguilar.rivera@gmail.com,W1,inscrito,2025-09-23 10:43:42
-2243,240300877@gmail.com,W1,cancelado,2025-09-23 10:41:52
-2242,240300897@ucaribe.edu.mx,W1,inscrito,2025-09-23 10:41:41
-2241,240301024@ucaribe.edu.mx,W1,inscrito,2025-09-23 07:26:59
-2240,210300647@ucaribe.edu.mx,W6,lista_espera,2025-09-23 01:47:58
-2239,230300899@ucaribe.edu.mx,W3,cancelado,2025-09-23 00:00:45
-2238,220300861@ucaribe.edu.mx,W3,lista_espera,2025-09-22 19:40:18
-2237,210300646@ucaribe.edu.mx,W1,inscrito,2025-09-22 18:32:33
-2236,210300646@ucaribe.edu.mx,W5,cancelado,2025-09-22 18:31:58
-2235,240300997@ucaribe.edu.mx,W5,cancelado,2025-09-22 18:25:31
-2234,250300925@ucaribe.edu.mx,W1,inscrito,2025-09-22 18:16:16
-2233,250300899@ucaribe.edu.mx,W1,inscrito,2025-09-22 18:01:26
-2232,250300928@ucaribe.edu.mx,W1,inscrito,2025-09-22 18:00:07
-2231,240300927@ucaribe.edu.mx,W1,inscrito,2025-09-22 17:39:10
-2230,210300597@ucaribe.edu.mx,W6,lista_espera,2025-09-22 17:24:04
-2229,210300609@ucaribe.edu.mx,W5,lista_espera,2025-09-22 17:17:42
-2228,250300937@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:58:48
-2226,220300849@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:52:27
-2227,230301047@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:52:27
-2225,250301029@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:36:12
-2223,250301087@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:34:16
-2224,250300933@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:34:16
-2222,250300932@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:34:15
-2221,230300881@ucaribe.edu.mx,W4,lista_espera,2025-09-22 16:32:48
-2220,250300940@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:31:15
-2219,250300922@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:30:05
-2218,250301031@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:28:55
-2217,250300953@uqcaribe.edu.mx,W1,inscrito,2025-09-22 16:27:52
-2216,250300900@ucaribe.edu.mx,W3,cancelado,2025-09-22 16:27:28
-2215,250300935@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:27:07
-2214,250300967@ucaribe.edu.mx,W5,lista_espera,2025-09-22 16:27:02
-2213,250300918@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:26:35
-2212,juanmanuelosoriodiaz@gmail.com,W3,inscrito,2025-09-22 16:26:09
-2211,250300956@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:25:55
-2209,250300951@ucaribe.edu.mx,W5,inscrito,2025-09-22 16:25:53
-2210,250300959@ucaribe.edu.mx,W5,inscrito,2025-09-22 16:25:53
-2208,250301075@ucaribe.edu.mx,W5,inscrito,2025-09-22 16:25:52
-2207,250300914@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:25:50
-2206,250300936@ucaribe.edu.mx,W5,inscrito,2025-09-22 16:25:43
-2205,250300915@ucaribe.edu.mx,W5,inscrito,2025-09-22 16:25:15
-2204,250300939@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:25:13
-2203,250301083@ucaribe.edu.mx,W5,inscrito,2025-09-22 16:25:10
-2202,250300919@ucaribe.edu.mx,W1,cancelado,2025-09-22 16:24:43
-2201,250301075@ucaribe.edu.mx,W3,cancelado,2025-09-22 16:24:37
-2200,230300895@ucaribe.edu.mx,W1,inscrito,2025-09-22 16:24:30
-2199,250300936@ucaribe.edu.mx,W3,cancelado,2025-09-22 16:24:29
-2198,250300956@ucaribe.edu.mx,W1,cancelado,2025-09-22 16:24:25
-2197,250301077@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:24:22
-2196,250300918@ucaribe.edu.mx,W1,cancelado,2025-09-22 16:24:17
-2195,juanmanuelosoriodiaz@gmail.com,W1,cancelado,2025-09-22 16:24:04
-2194,250300966@ucaribe.edu.mx,W3,inscrito,2025-09-22 16:24:01
-2193,230300895@ucaribe.edu.mx,W3,cancelado,2025-09-22 16:19:36
-2192,210300632@ucaribe.edu.mx,W4,lista_espera,2025-09-22 16:18:41
-2191,230300960@ucaribe.edu.mx,W4,lista_espera,2025-09-22 16:11:46
-2190,230301048@ucaribe.edu.mx,W1,inscrito,2025-09-22 15:46:02
-2189,200300394@ucaribe.edu.mx,W5,inscrito,2025-09-22 15:39:36
-2188,090300161@ucaribe.edu.mx,W1,inscrito,2025-09-22 15:38:20
-2187,230300847@ucaribe.edu.mx,W1,inscrito,2025-09-22 15:32:37
-2186,210300606@ucaribe.edu.mx,W3,inscrito,2025-09-22 15:28:35
-2185,210300656@ucaribe.edu.mx,W5,inscrito,2025-09-22 15:19:27
-2184,210300650@ucaribe.edu.mx,W3,inscrito,2025-09-22 15:18:01
-2183,230300853@ucaribe.edu.mx,W2,lista_espera,2025-09-22 15:16:26
-2182,230300925@ucaribe.edu.mx,W5,inscrito,2025-09-22 14:51:19
-2181,230300882@ucaribe.edu.mx,W1,inscrito,2025-09-22 14:49:03
-2180,220300884@ucaribe.edu.mx,W1,cancelado,2025-09-22 14:39:43
-2179,220300884@ucaribe.edu.mx,W2,cancelado,2025-09-22 14:39:35
-2178,220300884@ucaribe.edu.mx,W3,cancelado,2025-09-22 14:39:26
-2177,220300838@ucaribe.edu.mx,W2,inscrito,2025-09-22 14:37:48
-2176,250300920@ucaribe.edu.mx,W3,inscrito,2025-09-22 14:37:42
-2175,220300838@ucaribe.edu.mx,W4,cancelado,2025-09-22 14:37:29
-2174,240300909@ucaribe.edu.mx,W2,inscrito,2025-09-22 14:34:09
-2173,220300839@ucaribe.edu.mx,W4,lista_espera,2025-09-22 14:34:02
-2172,220300839@ucaribe.edu.mx,W6,cancelado,2025-09-22 14:33:50
-2171,200300354@ucaribe.edu.mx,W3,inscrito,2025-09-22 14:32:21
-2170,230300899@ucaribe.edu.mx,W1,cancelado,2025-09-22 14:30:15
-2169,230300854@ucaribe.edu.mx,W3,inscrito,2025-09-22 14:28:16
-2168,200300354@ucaribe.edu.mx,W2,cancelado,2025-09-22 14:26:53
-2167,220300878@ucaribe.edu.mx,W4,lista_espera,2025-09-22 14:25:49
-2166,220300840@ucaribe.edu.mx,W5,inscrito,2025-09-22 14:22:40
-2165,220300878@ucaribe.edu.mx,W6,cancelado,2025-09-22 14:18:19
-2164,200300365@ucaribe.edu.mx,W3,inscrito,2025-09-22 14:13:19
-2163,210300583@ucaribe.edu.mx,W4,lista_espera,2025-09-22 14:09:23
-2162,240300898@ucaribe.edu.mx,W1,inscrito,2025-09-22 14:00:57
-2161,210300727@ucaribe.edu.mx,W6,lista_espera,2025-09-22 14:00:48
-2160,240301073@ucaribe.edu.mx,W5,inscrito,2025-09-22 14:00:31
-2159,200300364@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:57:55
-2158,230300925@ucaribe.edu.mx,W1,cancelado,2025-09-22 13:57:05
-2157,210300598@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:56:57
-2154,250300954@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:54:35
-2155,250301034@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:54:35
-2156,250300934@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:54:35
-2153,220300839@ucaribe.edu.mx,W5,cancelado,2025-09-22 13:54:08
-2152,240300980@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:53:24
-2151,240300880@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:52:43
-2150,250300952@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:51:48
-2149,250300942@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:51:31
-2148,250300954@ucaribe.edu.mx,W2,cancelado,2025-09-22 13:51:22
-2147,250301034@ucaribe.edu.mx,W2,cancelado,2025-09-22 13:51:21
-2146,edgarole11@gmail.com,W5,inscrito,2025-09-22 13:50:29
-2145,250300952@ucaribe.edu.mx,W3,cancelado,2025-09-22 13:49:50
-2144,250300905@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:49:25
-2143,210300610@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:48:34
-2142,220300890@ucaribe.edu.mx,W2,cancelado,2025-09-22 13:48:10
-2141,250300952@ucaribe.edu.mx,W5,cancelado,2025-09-22 13:47:46
-2140,220300876@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:46:47
-2139,250300942@ucaribe.edu.mx,W5,cancelado,2025-09-22 13:46:40
-2138,250300960@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:45:39
-2137,250300921@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:45:26
-2136,220300879@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:44:23
-2135,220300876@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:44:17
-2134,210300655@ucaribe.edu.mx,W4,lista_espera,2025-09-22 13:40:49
-2133,220300837@ucaribe.edu.mx,W4,lista_espera,2025-09-22 13:40:25
-2132,240300904@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:39:54
-2131,210300588@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:39:48
-2130,250300930@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:39:40
-2129,250300957@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:39:39
-2128,250300921@ucaribe.edu.mx,W3,cancelado,2025-09-22 13:39:35
-2127,ivanarodriguezherrera9@gmail.com,W2,inscrito,2025-09-22 13:38:40
-2126,210300650@ucaribe.edu.mx,W4,cancelado,2025-09-22 13:37:38
-2124,250300868@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:37:36
-2125,240300904@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:37:36
-2123,250300946@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:37:34
-2122,230300884@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:37:29
-2121,240300905@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:37:24
-2120,240300922@ucaribe.edu.mx,W1,cancelado,2025-09-22 13:37:18
-2119,200300404@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:37:13
-2118,240300973@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:37:10
-2117,220300890@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:36:37
-2116,220300854@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:36:35
-2115,210300654@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:36:34
-2114,230300908@ucaribe.edu.mx,W4,lista_espera,2025-09-22 13:35:47
-2113,250300909@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:35:45
-2112,250300921@ucaribe.edu.mx,W2,cancelado,2025-09-22 13:35:34
-2111,240300921@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:35:25
-2110,250300955@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:35:17
-2109,250300895@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:35:02
-2108,230300920@ucaribe.edu.mx,W4,lista_espera,2025-09-22 13:34:52
-2107,200300383@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:34:18
-2106,230300899@ucaribe.edu.mx,W5,cancelado,2025-09-22 13:34:10
-2105,220300848@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:34:09
-2104,220300846@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:34:07
-2103,220300937@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:34:06
-2102,240300874@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:34:00
-2101,250300957@ucaribe.edu.mx,W5,cancelado,2025-09-22 13:33:59
-2100,240300984@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:33:55
-2099,240300923@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:33:51
-2098,210300653@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:33:47
-2097,240300888@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:33:24
-2096,250300733@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:33:12
-2095,220300875@ucaribe.edu.mx,W4,lista_espera,2025-09-22 13:32:49
-2094,220300864@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:32:25
-2093,250300907@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:32:19
-2092,250300926@ucaribe.edu,W5,inscrito,2025-09-22 13:32:18
-2091,220300871@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:32:17
-2090,220300840@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:32:15
-2089,240300909@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:32:13
-2088,230300902@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:32:06
-2087,250300943@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:32:00
-2086,230300930@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:31:59
-2085,220300871@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:56
-2084,240300874@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:38
-2083,210300638@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:31:35
-2082,250300902@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:31:33
-2081,190300693@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:31:30
-2080,220300865@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:31:29
-2079,250300903@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:31:21
-2077,220300882@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:31:18
-2078,220300852@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:31:18
-2076,220300864@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:16
-2075,240300897@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:12
-2073,230300876@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:31:09
-2074,240300926@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:31:09
-2072,220300848@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:06
-2071,230300854@ucaribe.edu.mx,W2,cancelado,2025-09-22 13:31:00
-2070,210300657@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:30:53
-2069,210300653@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:30:51
-2068,230300907@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:30:48
-2067,220300859@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:30:44
-2065,220300834@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:30:42
-2066,230300926@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:30:42
-2064,220300833@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:30:39
-2062,230300899@ucaribe.edu.mx,W2,cancelado,2025-09-22 13:30:38
-2063,230300141@ucaribe.edu.mx,W5,inscrito,2025-09-22 13:30:38
-2061,250300896@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:30:36
-2060,250300943@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:30:33
-2058,250300961@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:30:32
-2059,230300860@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:30:32
-2056,240300924@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:30:31
-2057,bubblesggukie@gmail.com,W5,inscrito,2025-09-22 13:30:31
-2055,250300917@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:30:29
-2054,220300885@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:30:28
-2053,210300661@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:27
-2052,240300919@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:26
-2051,230300887@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:30:25
-2050,230300867@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:23
-2049,250300947@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:21
-2048,220300870@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:30:20
-2046,240300925@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:19
-2047,220300884@ucaribe.edu.mx,W4,cancelado,2025-09-22 13:30:19
-2043,230300924@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:17
-2044,240300966@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:30:17
-2045,240300902@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:17
-2041,240300878@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:14
-2042,250301063@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:14
-2040,240300907@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:13
-2039,220300843@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:30:10
-2038,210300641@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:30:08
-2037,210300591@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:30:06
-2036,240300994@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:29:53
-2035,240300890@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:29:36
-2034,190300691@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:29:29
-2033,jvirgen@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:29:23
-2032,210300603@ucaribe.edu.mx,W1,cancelado,2025-09-22 13:29:17
-2031,190300701@ucaribe.edu.mx,W1,inscrito,2025-09-22 13:28:29
-2030,230300768@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:28:19
-2028,230300922@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:27:55
-2029,230300912@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:55
-2026,230300931@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:49
-2027,230300916@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:49
-2025,230300889@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:46
-2024,230300848@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:29
-2023,240300886@ucaribe.edu.mx,W3,inscrito,2025-09-22 13:27:24
-2022,190300911@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:27:21
-2021,230300901@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:20
-2020,230300856@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:12
-2019,230300928@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:27:02
-2018,220300883@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:27:00
-2017,230300914@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:26:56
-2016,240300908@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:26:54
-2015,220300771@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:26:52
-2014,220300855@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:26:49
-2013,230300929@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:26:44
-2012,220300831@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:26:43
-2011,220300768@ucaribe.edu.mx,W6,inscrito,2025-09-22 13:26:37
-2010,200300595@ucaribe.edu.mx,W1,cancelado,2025-09-22 13:26:35
-2009,230300919@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:26:29
+id,participante_email,participante_nombre,participante_telefono,actividad_codigo,estado,creado
+2246,240300899@ucaribe.edu.mx,Leandro Lizandro Parra Maza,9981294147,W1,inscrito,2025-09-23 10:49:42
+2245,240300877@ucaribe.edu.mx,Mauricio Emiliano Moreno Cetzal,9983998729,W1,inscrito,2025-09-23 10:47:15
+2244,georgina.aguilar.rivera@gmail.com,Georgina  Aguilar Rivera,9981493655,W1,inscrito,2025-09-23 10:43:42
+2243,240300877@gmail.com,Mauricio Emiliano Moreno Cetzal,9983998729,W1,cancelado,2025-09-23 10:41:52
+2242,240300897@ucaribe.edu.mx,Christopher Abisair Mendez Loria,9983901560,W1,inscrito,2025-09-23 10:41:41
+2241,240301024@ucaribe.edu.mx,Ximena Alejandra Martinez Cano,9981988480,W1,inscrito,2025-09-23 07:26:59
+2240,210300647@ucaribe.edu.mx,Monserrat  Hurtado Montaño,9984186761,W6,lista_espera,2025-09-23 01:47:58
+2239,230300899@ucaribe.edu.mx,BRIAN ARMANDO ESCAMILLA BAUTISTA,9981648774,W3,cancelado,2025-09-23 00:00:45
+2238,220300861@ucaribe.edu.mx,Carlos Emilio Guemez Cinta,9985353015,W3,lista_espera,2025-09-22 19:40:18
+2237,210300646@ucaribe.edu.mx,JESÚS ALBERTO TAMAY YAAN,9981554905,W1,inscrito,2025-09-22 18:32:33
+2236,210300646@ucaribe.edu.mx,JESÚS ALBERTO TAMAY YAAN,9981554905,W5,cancelado,2025-09-22 18:31:58
+2235,240300997@ucaribe.edu.mx,Jaime Johan Fierro Villegas,9983661822,W5,cancelado,2025-09-22 18:25:31
+2234,250300925@ucaribe.edu.mx,Leonardo  Santos Castillo,9981560116,W1,inscrito,2025-09-22 18:16:16
+2233,250300899@ucaribe.edu.mx,Guillermo  Balam Hernández,9981553379,W1,inscrito,2025-09-22 18:01:26
+2232,250300928@ucaribe.edu.mx,Mateo  Hernández Mendoza,9984649710,W1,inscrito,2025-09-22 18:00:07
+2231,240300927@ucaribe.edu.mx,Julio Cesar Farfan Mahay,9983977122,W1,inscrito,2025-09-22 17:39:10
+2230,210300597@ucaribe.edu.mx,Carlos Moises Moo Tamay,9984768251,W6,lista_espera,2025-09-22 17:24:04
+2229,210300609@ucaribe.edu.mx,Michael Rafael Ku De la cruz,9983850144,W5,lista_espera,2025-09-22 17:17:42
+2228,250300937@ucaribe.edu.mx,Juan Manuel Osorio Diaz,9988977168,W3,inscrito,2025-09-22 16:58:48
+2226,220300849@ucaribe.edu.mx,Alexander Yhair Canto Mex,9981847164,W3,inscrito,2025-09-22 16:52:27
+2227,230301047@ucaribe.edu.mx,Zuemy Karely Pavon Torres,9983400169,W3,inscrito,2025-09-22 16:52:27
+2225,250301029@ucaribe.edu.mx,Ámbar Abril Valdez Aguilar,9984042843,W1,inscrito,2025-09-22 16:36:12
+2223,250301087@ucaribe.edu.mx,Dana Elena Diaz Ramírez,7443126519,W1,inscrito,2025-09-22 16:34:16
+2224,250300933@ucaribe.edu.mx,Alexis Gael Carrillo Roa,5610328529,W1,inscrito,2025-09-22 16:34:16
+2222,250300932@ucaribe.edu.mx,Jessica  Zaragoza Gómez,9984492884,W1,inscrito,2025-09-22 16:34:15
+2221,230300881@ucaribe.edu.mx,Jennifer Andrea Balcazar Santos,9983908744,W4,lista_espera,2025-09-22 16:32:48
+2220,250300940@ucaribe.edu.mx,Joel Valentín Castro Canche,9982356079,W3,inscrito,2025-09-22 16:31:15
+2219,250300922@ucaribe.edu.mx,Leonardo Emmanuel Sánchez González,9984802723,W3,inscrito,2025-09-22 16:30:05
+2218,250301031@ucaribe.edu.mx,Diego Aaron Ramirez Pool,9984149365,W1,inscrito,2025-09-22 16:28:55
+2217,250300953@uqcaribe.edu.mx,Deyvy Alexander Villalobos García,9983054654,W1,inscrito,2025-09-22 16:27:52
+2216,250300900@ucaribe.edu.mx,Derek Alexander Mejia Cid,9981034307,W3,cancelado,2025-09-22 16:27:28
+2215,250300935@ucaribe.edu.mx,Israel  Corona Peñafiel,9985204929,W1,inscrito,2025-09-22 16:27:07
+2214,250300967@ucaribe.edu.mx,Maria Fernanda Chable Martinez,9981316224,W5,lista_espera,2025-09-22 16:27:02
+2213,250300918@ucaribe.edu.mx,Brandon Amilcar Roblero Hernandez,9982351413,W3,inscrito,2025-09-22 16:26:35
+2212,juanmanuelosoriodiaz@gmail.com,Juan Manuel Osorio Diaz,9988977168,W3,inscrito,2025-09-22 16:26:09
+2211,250300956@ucaribe.edu.mx,Bryan  León Estrada,9987334995,W3,inscrito,2025-09-22 16:25:55
+2209,250300951@ucaribe.edu.mx,Diana Abril Morales Martinez,9982588885,W5,inscrito,2025-09-22 16:25:53
+2210,250300959@ucaribe.edu.mx,Luis Angel Alcala Mendez,9982322553,W5,inscrito,2025-09-22 16:25:53
+2208,250301075@ucaribe.edu.mx,Cielo  Cruz Pineda,7331043861,W5,inscrito,2025-09-22 16:25:52
+2207,250300914@ucaribe.edu.mx,Daniel Alexander Beltrán Gutiérrez,9981922383,W1,inscrito,2025-09-22 16:25:50
+2206,250300936@ucaribe.edu.mx,Franselia Ivonne Gómez Trinidad,9981053887,W5,inscrito,2025-09-22 16:25:43
+2205,250300915@ucaribe.edu.mx,Dorian Rafael Tukuch Baez,9984243221,W5,inscrito,2025-09-22 16:25:15
+2204,250300939@ucaribe.edu.mx,Obet Sebastián Lopez Sánchez,9987596057,W3,inscrito,2025-09-22 16:25:13
+2203,250301083@ucaribe.edu.mx,José Antonio Huchin De la cruz,9982357632,W5,inscrito,2025-09-22 16:25:10
+2202,250300919@ucaribe.edu.mx,Ivonne Naomi Farias Miranda,9983437428,W1,cancelado,2025-09-22 16:24:43
+2201,250301075@ucaribe.edu.mx,Cielo  Cruz Pineda,7331043861,W3,cancelado,2025-09-22 16:24:37
+2200,230300895@ucaribe.edu.mx,Jonathan Geovanny Itzincab Mena,9987332606,W1,inscrito,2025-09-22 16:24:30
+2199,250300936@ucaribe.edu.mx,Franselia Ivonne Gómez Trinidad,9981053887,W3,cancelado,2025-09-22 16:24:29
+2198,250300956@ucaribe.edu.mx,Bryan  León Estrada,9987334995,W1,cancelado,2025-09-22 16:24:25
+2197,250301077@ucaribe.edu.mx,Diego Jeronimo Alcocer Ricardez,9988961924,W3,inscrito,2025-09-22 16:24:22
+2196,250300918@ucaribe.edu.mx,Brandon Amilcar Roblero Hernandez,9982351413,W1,cancelado,2025-09-22 16:24:17
+2195,juanmanuelosoriodiaz@gmail.com,Juan Manuel Osorio Diaz,9988977168,W1,cancelado,2025-09-22 16:24:04
+2194,250300966@ucaribe.edu.mx,Zaira Melissa Matias Vazquez,9983485109,W3,inscrito,2025-09-22 16:24:01
+2193,230300895@ucaribe.edu.mx,Jonathan Geovanny Itzincab Mena,9987332606,W3,cancelado,2025-09-22 16:19:36
+2192,210300632@ucaribe.edu.mx,Karina  Hernandez Garci,5548772147,W4,lista_espera,2025-09-22 16:18:41
+2191,230300960@ucaribe.edu.mx,Joseph Alexander Sanchez Baeza,9981576514,W4,lista_espera,2025-09-22 16:11:46
+2190,230301048@ucaribe.edu.mx,ADIEL  POOT HAU,9981598078,W1,inscrito,2025-09-22 15:46:02
+2189,200300394@ucaribe.edu.mx,Ruben Emmanuel Castillo May,9983034941,W5,inscrito,2025-09-22 15:39:36
+2188,090300161@ucaribe.edu.mx,Mario Alberto Contreras Estrada,3141592765,W1,inscrito,2025-09-22 15:38:20
+2187,230300847@ucaribe.edu.mx,Johan Gael Morales Peña,4772520025,W1,inscrito,2025-09-22 15:32:37
+2186,210300606@ucaribe.edu.mx,johana  vazquez merino,9984876834,W3,inscrito,2025-09-22 15:28:35
+2185,210300656@ucaribe.edu.mx,Javier Alejandro Montalvo Carmona,9981230612,W5,inscrito,2025-09-22 15:19:27
+2184,210300650@ucaribe.edu.mx,SILVIA GUADALUPE CANTE COCOM,9983979026,W3,inscrito,2025-09-22 15:18:01
+2183,230300853@ucaribe.edu.mx,Keyla Monserrath Gomes Mejia,9981921236,W2,lista_espera,2025-09-22 15:16:26
+2182,230300925@ucaribe.edu.mx,Diego  Castañeda Ortega,9983505751,W5,inscrito,2025-09-22 14:51:19
+2181,230300882@ucaribe.edu.mx,Brisa Daniela Cruz Chavelas,9984064559,W1,inscrito,2025-09-22 14:49:03
+2180,220300884@ucaribe.edu.mx,Tila Jazmin Chable Sarao,0084016995,W1,cancelado,2025-09-22 14:39:43
+2179,220300884@ucaribe.edu.mx,Tila Jazmin Chable Sarao,0084016995,W2,cancelado,2025-09-22 14:39:35
+2178,220300884@ucaribe.edu.mx,Tila Jazmin Chable Sarao,0084016995,W3,cancelado,2025-09-22 14:39:26
+2177,220300838@ucaribe.edu.mx,Lizeth Estephany May Itza,9981238141,W2,inscrito,2025-09-22 14:37:48
+2176,250300920@ucaribe.edu.mx,Sabino Miguel Rodríguez Flores,9981143202,W3,inscrito,2025-09-22 14:37:42
+2175,220300838@ucaribe.edu.mx,Lizeth Estephany May Itza,9981238141,W4,cancelado,2025-09-22 14:37:29
+2174,240300909@ucaribe.edu.mx,Hector Manuel dela cruz Mahla Canche,9983113589,W2,inscrito,2025-09-22 14:34:09
+2173,220300839@ucaribe.edu.mx,Juana Berenice Valentín Gregorio,9982132230,W4,lista_espera,2025-09-22 14:34:02
+2172,220300839@ucaribe.edu.mx,Juana Berenice Valentín Gregorio,9982132230,W6,cancelado,2025-09-22 14:33:50
+2171,200300354@ucaribe.edu.mx,Julio Cesar Dominguez Morales,9988808682,W3,inscrito,2025-09-22 14:32:21
+2170,230300899@ucaribe.edu.mx,BRIAN ARMANDO ESCAMILLA BAUTISTA,9981648774,W1,cancelado,2025-09-22 14:30:15
+2169,230300854@ucaribe.edu.mx,Ezquiel Isaias Martinez Yam,9981319281,W3,inscrito,2025-09-22 14:28:16
+2168,200300354@ucaribe.edu.mx,Julio Cesar Dominguez Morales,9988808682,W2,cancelado,2025-09-22 14:26:53
+2167,220300878@ucaribe.edu.mx,Carlos Amado Moreno Sánchez,9983948953,W4,lista_espera,2025-09-22 14:25:49
+2166,220300840@ucaribe.edu.mx,Victoria  Colorado Díaz,9981117697,W5,inscrito,2025-09-22 14:22:40
+2165,220300878@ucaribe.edu.mx,Carlos Amado Moreno Sánchez,9983948953,W6,cancelado,2025-09-22 14:18:19
+2164,200300365@ucaribe.edu.mx,Leonardo  Valerio Rivera,9987347371,W3,inscrito,2025-09-22 14:13:19
+2163,210300583@ucaribe.edu.mx,Angel Zavala Zavala Chuc,9981063763,W4,lista_espera,2025-09-22 14:09:23
+2162,240300898@ucaribe.edu.mx,Rafael Hervé Vargas Castañeda,9996692600,W1,inscrito,2025-09-22 14:00:57
+2161,210300727@ucaribe.edu.mx,Oscar Diego Geuguer Diaz,9983902780,W6,lista_espera,2025-09-22 14:00:48
+2160,240301073@ucaribe.edu.mx,Michael Oswaldo Perez Sánchez,9831200426,W5,inscrito,2025-09-22 14:00:31
+2159,200300364@ucaribe.edu.mx,Samara Alejandra Chac Zapata,9981269775,W1,inscrito,2025-09-22 13:57:55
+2158,230300925@ucaribe.edu.mx,Diego  Castañeda Ortega,9983505751,W1,cancelado,2025-09-22 13:57:05
+2157,210300598@ucaribe.edu.mx,Angel Gabriel Ramirez Sandoval,9983569791,W1,inscrito,2025-09-22 13:56:57
+2154,250300954@ucaribe.edu.mx,Luis Alexis Nicolas Hernandez,9984935621,W3,inscrito,2025-09-22 13:54:35
+2155,250301034@ucaribe.edu.mx,Juan Omar Morin Coto,9988965364,W3,inscrito,2025-09-22 13:54:35
+2156,250300934@ucaribe.edu.mx,Sergio Jesús Márquez Torres,9984138748,W3,inscrito,2025-09-22 13:54:35
+2153,220300839@ucaribe.edu.mx,Juana Berenice Valentín Gregorio,9982132230,W5,cancelado,2025-09-22 13:54:08
+2152,240300980@ucaribe.edu.mx,Miguel Emiliano Ruiz Enriquez,9982591175,W6,lista_espera,2025-09-22 13:53:24
+2151,240300880@ucaribe.edu.mx,Michel Yael Ehuan Sanchez,9981154565,W6,lista_espera,2025-09-22 13:52:43
+2150,250300952@ucaribe.edu.mx,Diego Salvador Hernandez Estrada,9984861584,W6,lista_espera,2025-09-22 13:51:48
+2149,250300942@ucaribe.edu.mx,Alexis Uriel Vieyra Alvarez,7226822069,W6,lista_espera,2025-09-22 13:51:31
+2148,250300954@ucaribe.edu.mx,Luis Alexis Nicolas Hernandez,9984935621,W2,cancelado,2025-09-22 13:51:22
+2147,250301034@ucaribe.edu.mx,Juan Omar Morin Coto,9988965364,W2,cancelado,2025-09-22 13:51:21
+2146,edgarole11@gmail.com,Edgar  Rodríguez López,9983528393,W5,inscrito,2025-09-22 13:50:29
+2145,250300952@ucaribe.edu.mx,Diego Salvador Hernandez Estrada,9984861584,W3,cancelado,2025-09-22 13:49:50
+2144,250300905@ucaribe.edu.mx,Andrea Valeria Mendoza Cuevas,9981200801,W6,lista_espera,2025-09-22 13:49:25
+2143,210300610@ucaribe.edu.mx,Bryan Armando Báez Beristain,9985781142,W1,inscrito,2025-09-22 13:48:34
+2142,220300890@ucaribe.edu.mx,Matteo  Castán Borja,9842119193,W2,cancelado,2025-09-22 13:48:10
+2141,250300952@ucaribe.edu.mx,Diego Salvador Hernandez Estrada,9984861584,W5,cancelado,2025-09-22 13:47:46
+2140,220300876@ucaribe.edu.mx,Jorge Alberto Loria Chimal,9983925807,W2,inscrito,2025-09-22 13:46:47
+2139,250300942@ucaribe.edu.mx,Alexis Uriel Vieyra Alvarez,7226822069,W5,cancelado,2025-09-22 13:46:40
+2138,250300960@ucaribe.edu.mx,Oscar Emilio Gómez Aguilar,9984184776,W3,inscrito,2025-09-22 13:45:39
+2137,250300921@ucaribe.edu.mx,Tadeo Alexander Poot Alfonso,9987586735,W1,inscrito,2025-09-22 13:45:26
+2136,220300879@ucaribe.edu.mx,Axel Javier Flores Chan,9982215325,W2,inscrito,2025-09-22 13:44:23
+2135,220300876@ucaribe.edu.mx,Jorge Alberto Loria Chimal,9983925807,W6,cancelado,2025-09-22 13:44:17
+2134,210300655@ucaribe.edu.mx,Juan  Silva Hernandez,9983382783,W4,lista_espera,2025-09-22 13:40:49
+2133,220300837@ucaribe.edu.mx,Carlos Alberto Oavndo Mendez,9981801820,W4,lista_espera,2025-09-22 13:40:25
+2132,240300904@ucaribe.edu.mx,Dulce Hanney Jimenez Cabrera,9984628444,W3,inscrito,2025-09-22 13:39:54
+2131,210300588@ucaribe.edu.mx,Selmy Karina Tuz Tah,9983159658,W2,inscrito,2025-09-22 13:39:48
+2130,250300930@ucaribe.edu.mx,Isaac . Rojas Caporal,9981542196,W6,lista_espera,2025-09-22 13:39:40
+2129,250300957@ucaribe.edu.mx,Victor Fernando Limberg Euan,9981498647,W3,inscrito,2025-09-22 13:39:39
+2128,250300921@ucaribe.edu.mx,Tadeo Alexander Poot Alfonso,9987586735,W3,cancelado,2025-09-22 13:39:35
+2127,ivanarodriguezherrera9@gmail.com,Ivana  Rodríguez Herrera,9981179389,W2,inscrito,2025-09-22 13:38:40
+2126,210300650@ucaribe.edu.mx,SILVIA GUADALUPE CANTE COCOM,9983979026,W4,cancelado,2025-09-22 13:37:38
+2124,250300868@ucaribe.edu.mx,Samantha Ixchel Camacho Arellano,9981037541,W2,inscrito,2025-09-22 13:37:36
+2125,240300904@ucaribe.edu.mx,Dulce Hanney Jimenez Cabrera,9984628444,W6,cancelado,2025-09-22 13:37:36
+2123,250300946@ucaribe.edu.mx,Miguel Angel Rangel Ramos,9981509961,W2,inscrito,2025-09-22 13:37:34
+2122,230300884@ucaribe.edu.mx,DANIEL  COLLI CAMPECHANO,9983461053,W3,inscrito,2025-09-22 13:37:29
+2121,240300905@ucaribe.edu.mx,Edwin Ulises Pat Coronado,9984949064,W3,inscrito,2025-09-22 13:37:24
+2120,240300922@ucaribe.edu.mx,Valeria  Mendoza Isidoro,9986409545,W1,cancelado,2025-09-22 13:37:18
+2119,200300404@ucaribe.edu.mx,Orlando  Justo Gallegos,9983492769,W6,lista_espera,2025-09-22 13:37:13
+2118,240300973@ucaribe.edu.mx,Ariana Guadalupe Vargas Burgos,9983381089,W2,inscrito,2025-09-22 13:37:10
+2117,220300890@ucaribe.edu.mx,Matteo  Castán Borja,9842119193,W6,cancelado,2025-09-22 13:36:37
+2116,220300854@ucaribe.edu.mx,Zamora  Abraham Juárez,9982252535,W5,inscrito,2025-09-22 13:36:35
+2115,210300654@ucaribe.edu.mx,Jasson Nicolas Jimenez Morales,9983240997,W2,inscrito,2025-09-22 13:36:34
+2114,230300908@ucaribe.edu.mx,Dulce Sofia Mena Martinez,9981372323,W4,lista_espera,2025-09-22 13:35:47
+2113,250300909@ucaribe.edu.mx,Alexa Linette Barrita Ramirez,9983033629,W2,inscrito,2025-09-22 13:35:45
+2112,250300921@ucaribe.edu.mx,Tadeo Alexander Poot Alfonso,9987586735,W2,cancelado,2025-09-22 13:35:34
+2111,240300921@ucaribe.edu.mx,Raquel Esmeralda Tun Zaragoza,9981791555,W1,inscrito,2025-09-22 13:35:25
+2110,250300955@ucaribe.edu.mx,Diego Ricardo Flores Concepcion,9981303589,W5,inscrito,2025-09-22 13:35:17
+2109,250300895@ucaribe.edu.mx,Norma Cecilia Javier Montejo,9843151623,W1,inscrito,2025-09-22 13:35:02
+2108,230300920@ucaribe.edu.mx,Diego Alexis Hernández Sánchez,9984772783,W4,lista_espera,2025-09-22 13:34:52
+2107,200300383@ucaribe.edu.mx,RICHARD  BERNAL SOSA,9981960547,W6,lista_espera,2025-09-22 13:34:18
+2106,230300899@ucaribe.edu.mx,BRIAN ARMANDO ESCAMILLA BAUTISTA,9981648774,W5,cancelado,2025-09-22 13:34:10
+2105,220300848@ucaribe.edu.mx,Gael Adán Ménez Torres,9981790269,W5,inscrito,2025-09-22 13:34:09
+2104,220300846@ucaribe.edu.mx,Nayla Dalila Uitzil Cano,9982468812,W5,inscrito,2025-09-22 13:34:07
+2103,220300937@ucaribe.edu.mx,Brenda Yulissa Nava .,9982213933,W5,inscrito,2025-09-22 13:34:06
+2102,240300874@ucaribe.edu.mx,Johan Alexis Escamilla Bautista,9981737614,W5,inscrito,2025-09-22 13:34:00
+2101,250300957@ucaribe.edu.mx,Victor Fernando Limberg Euan,9981498647,W5,cancelado,2025-09-22 13:33:59
+2100,240300984@ucaribe.edu.mx,Carlos Eduardo Chan Dzib,9983084894,W3,inscrito,2025-09-22 13:33:55
+2099,240300923@ucaribe.edu.mx,Jesús Emmanuel Mayoral Alejandro,9341836629,W2,inscrito,2025-09-22 13:33:51
+2098,210300653@ucaribe.edu.mx,Alexis Alberto Martínez Ávila,9983901571,W5,inscrito,2025-09-22 13:33:47
+2097,240300888@ucaribe.edu.mx,Ana Kristel Tec Valdez,9983975056,W1,inscrito,2025-09-22 13:33:24
+2096,250300733@ucaribe.edu.mx,Jonathan  Salgado Aguilar,9984021511,W6,lista_espera,2025-09-22 13:33:12
+2095,220300875@ucaribe.edu.mx,Jesús Daniel Ochoa Steck,9984810818,W4,lista_espera,2025-09-22 13:32:49
+2094,220300864@ucaribe.edu.mx,Andrea Danae Rubert Torres,9983959196,W4,inscrito,2025-09-22 13:32:25
+2093,250300907@ucaribe.edu.mx,Pamela  Payan Yañez,9988961422,W5,inscrito,2025-09-22 13:32:19
+2092,250300926@ucaribe.edu,Valeria  Olan Jimenez,9331001763,W5,inscrito,2025-09-22 13:32:18
+2091,220300871@ucaribe.edu.mx,Luis Enrique Rodas Ocaña,9983909983,W4,inscrito,2025-09-22 13:32:17
+2090,220300840@ucaribe.edu.mx,Victoria  Colorado Díaz,9981117697,W6,cancelado,2025-09-22 13:32:15
+2089,240300909@ucaribe.edu.mx,Hector Manuel dela cruz Mahla Canche,9983113589,W6,cancelado,2025-09-22 13:32:13
+2088,230300902@ucaribe.edu.mx,Christian Geovanni Morfin Herrera,9831221248,W4,inscrito,2025-09-22 13:32:06
+2087,250300943@ucaribe.edu.mx,karol ixchel flores avila,9981843026,W5,inscrito,2025-09-22 13:32:00
+2086,230300930@ucaribe.edu.mx,Deysi Maciel Domínguez Jiménez,9171434502,W2,inscrito,2025-09-22 13:31:59
+2085,220300871@ucaribe.edu.mx,Luis Enrique Rodas Ocaña,9983909983,W6,cancelado,2025-09-22 13:31:56
+2084,240300874@ucaribe.edu.mx,Johan Alexis Escamilla Bautista,9981737614,W6,cancelado,2025-09-22 13:31:38
+2083,210300638@ucaribe.edu.mx,Daniel Abdiek Chan Acosta,9997639731,W4,inscrito,2025-09-22 13:31:35
+2082,250300902@ucaribe.edu.mx,Santiago Emir Novelo Rodriguez,9981693533,W2,inscrito,2025-09-22 13:31:33
+2081,190300693@ucaribe.edu.mx,JANET ADAMARIS GONZÁLEZ PECH,9984235456,W6,lista_espera,2025-09-22 13:31:30
+2080,220300865@ucaribe.edu.mx,Aixa Guadalupe Mena Soto,9984070463,W4,inscrito,2025-09-22 13:31:29
+2079,250300903@ucaribe.edu.mx,Evelyn Yhanell Koh Be,9983373929,W2,inscrito,2025-09-22 13:31:21
+2077,220300882@ucaribe.edu.mx,Andrés  Gómez de Dios,9982928905,W6,lista_espera,2025-09-22 13:31:18
+2078,220300852@ucaribe.edu.mx,Samuel Baltazar Manzanilla Naal,9985789225,W4,inscrito,2025-09-22 13:31:18
+2076,220300864@ucaribe.edu.mx,Andrea Danae Rubert Torres,9983959196,W6,cancelado,2025-09-22 13:31:16
+2075,240300897@ucaribe.edu.mx,Christopher Abisair Mendez Loria,9983901560,W6,cancelado,2025-09-22 13:31:12
+2073,230300876@ucaribe.edu.mx,José Manuel Concepción Castro Tamay,9851469260,W2,inscrito,2025-09-22 13:31:09
+2074,240300926@ucaribe.edu.mx,Gabriel  Sanchez Maldonado,9841315517,W4,inscrito,2025-09-22 13:31:09
+2072,220300848@ucaribe.edu.mx,Gael Adán Ménez Torres,9981790269,W6,cancelado,2025-09-22 13:31:06
+2071,230300854@ucaribe.edu.mx,Ezquiel Isaias Martinez Yam,9981319281,W2,cancelado,2025-09-22 13:31:00
+2070,210300657@ucaribe.edu.mx,Mitzuri  Penagos Gonzalez,9983223585,W5,inscrito,2025-09-22 13:30:53
+2069,210300653@ucaribe.edu.mx,Alexis Alberto Martínez Ávila,9983901571,W6,cancelado,2025-09-22 13:30:51
+2068,230300907@ucaribe.edu.mx,VICTOR OMAR JUAREZ ESCOBEDO,9983541212,W2,inscrito,2025-09-22 13:30:48
+2067,220300859@ucaribe.edu.mx,Leydi Abigail Chuc Tun,9987604583,W4,inscrito,2025-09-22 13:30:44
+2065,220300834@ucaribe.edu.mx,Christopher Jesús Couoh Chuc,9988705789,W4,inscrito,2025-09-22 13:30:42
+2066,230300926@ucaribe.edu.mx,Loany De los Angeles Rosado Rosado,9984930548,W4,inscrito,2025-09-22 13:30:42
+2064,220300833@ucaribe.edu.mx,Angel Alberto Cen González,9983400037,W4,inscrito,2025-09-22 13:30:39
+2062,230300899@ucaribe.edu.mx,BRIAN ARMANDO ESCAMILLA BAUTISTA,9981648774,W2,cancelado,2025-09-22 13:30:38
+2063,230300141@ucaribe.edu.mx,Josh Abraham Guadarrama Cortes,9981910860,W5,inscrito,2025-09-22 13:30:38
+2061,250300896@ucaribe.edu.mx,Sofía Renata Castro Alcocer,9983024597,W1,inscrito,2025-09-22 13:30:36
+2060,250300943@ucaribe.edu.mx,karol ixchel flores avila,9981843026,W6,cancelado,2025-09-22 13:30:33
+2058,250300961@ucaribe.edu.mx,Fernando  Mena Sánchez,9983434086,W6,lista_espera,2025-09-22 13:30:32
+2059,230300860@ucaribe.edu.mx,Ricardo  Ortiz Hernandez,9834021815,W6,lista_espera,2025-09-22 13:30:32
+2056,240300924@ucaribe.edu.mx,Dahiana Michelle Vázquez Villa,7775342154,W3,inscrito,2025-09-22 13:30:31
+2057,bubblesggukie@gmail.com,Mia  Meneses Schott,9983003686,W5,inscrito,2025-09-22 13:30:31
+2055,250300917@ucaribe.edu.mx,Valeria Danae Cano Sanchez,9985350958,W6,lista_espera,2025-09-22 13:30:29
+2054,220300885@ucaribe.edu.mx,Fabian Alonso CASTRO BARRIOS,9984136140,W4,inscrito,2025-09-22 13:30:28
+2053,210300661@ucaribe.edu.mx,Alejandro Jesus Kantun Canche,9983530435,W6,inscrito,2025-09-22 13:30:27
+2052,240300919@ucaribe.edu.mx,Brayan Hairon Quintana Zamudio,9984295332,W6,inscrito,2025-09-22 13:30:26
+2051,230300887@ucaribe.edu.mx,Roberto Luis Alta Couoh,9981146705,W4,inscrito,2025-09-22 13:30:25
+2050,230300867@ucaribe.edu.mx,Jared Israel Chay Argaez,9981960481,W6,inscrito,2025-09-22 13:30:23
+2049,250300947@ucaribe.edu.mx,Rodolfo Gabriel Brambilla Romay,9982281064,W6,inscrito,2025-09-22 13:30:21
+2048,220300870@ucaribe.edu.mx,Carlos Esteban Salgado Torres,9988467400,W2,inscrito,2025-09-22 13:30:20
+2046,240300925@ucaribe.edu.mx,Anai  Baltazar Vasquez,9983193999,W6,inscrito,2025-09-22 13:30:19
+2047,220300884@ucaribe.edu.mx,Tila Jazmin Chable Sarao,0084016995,W4,cancelado,2025-09-22 13:30:19
+2043,230300924@ucaribe.edu.mx,Diego  Ubaldo Gomez,9983221477,W6,inscrito,2025-09-22 13:30:17
+2044,240300966@ucaribe.edu.mx,Rafael Alejandro Redondo Gonzalez,9983995418,W3,inscrito,2025-09-22 13:30:17
+2045,240300902@ucaribe.edu.mx,Oscar Daniel Baltazar Vasquez,9983203392,W6,inscrito,2025-09-22 13:30:17
+2041,240300878@ucaribe.edu.mx,Carlos Miguel Alejandro Marin,9987570326,W6,inscrito,2025-09-22 13:30:14
+2042,250301063@ucaribe.edu.mx,Andrik Amilcar Dzul Pech,9984796670,W6,inscrito,2025-09-22 13:30:14
+2040,240300907@ucaribe.edu.mx,Cassandra Novalí Rojas Luna,9982580213,W6,inscrito,2025-09-22 13:30:13
+2039,220300843@ucaribe.edu.mx,Yaritza  Roblero Hernandez,9984941560,W4,inscrito,2025-09-22 13:30:10
+2038,210300641@ucaribe.edu.mx,Saul Alexander Vivas Canche,9981885887,W6,inscrito,2025-09-22 13:30:08
+2037,210300591@ucaribe.edu.mx,ESTEFANY RUBI LARA MAAS,9984867699,W2,inscrito,2025-09-22 13:30:06
+2036,240300994@ucaribe.edu.mx,Montserrat Abigail Tamay Hau,9982593160,W6,inscrito,2025-09-22 13:29:53
+2035,240300890@ucaribe.edu.mx,Diego Armando Hernandez Lopez,9845379545,W3,inscrito,2025-09-22 13:29:36
+2034,190300691@ucaribe.edu.mx,Adrian  Peraza Cituk,9834022635,W6,inscrito,2025-09-22 13:29:29
+2033,jvirgen@ucaribe.edu.mx,Jarmen Said Virgen Suarez,9211041440,W1,inscrito,2025-09-22 13:29:23
+2032,210300603@ucaribe.edu.mx,Guadalupe Azucena Rodriguez Cauich,9983982543,W1,cancelado,2025-09-22 13:29:17
+2031,190300701@ucaribe.edu.mx,Jose De Jesus Candia Alejandro,9983566912,W1,inscrito,2025-09-22 13:28:29
+2030,230300768@ucaribe.edu.mx,Jesús Rafael Nahuat Ceme,9984022347,W6,inscrito,2025-09-22 13:28:19
+2028,230300922@ucaribe.edu.mx,Erick Abraham Carrillo Rosales,9982180209,W6,inscrito,2025-09-22 13:27:55
+2029,230300912@ucaribe.edu.mx,Isaac Alejandro Morga De la Cruz,9983224723,W4,inscrito,2025-09-22 13:27:55
+2026,230300931@ucaribe.edu.mx,Vanessa  Muñoz Romero,9983984508,W4,inscrito,2025-09-22 13:27:49
+2027,230300916@ucaribe.edu.mx,Carlos Eduardo Bautista Macias,9983024111,W4,inscrito,2025-09-22 13:27:49
+2025,230300889@ucaribe.edu.mx,Carlos Mijail Zea González,9982629834,W4,inscrito,2025-09-22 13:27:46
+2024,230300848@ucaribe.edu.mx,Miriam Candelaria Vite Rodriguez,9988955856,W4,inscrito,2025-09-22 13:27:29
+2023,240300886@ucaribe.edu.mx,José Alejandro Dueñas Clara,9981515150,W3,inscrito,2025-09-22 13:27:24
+2022,190300911@ucaribe.edu.mx,CARLOS ALDAIR CANCHE SANCHEZ,9983814943,W6,inscrito,2025-09-22 13:27:21
+2021,230300901@ucaribe.edu.mx,Gabri Armando Conrado Santiago,9982430257,W4,inscrito,2025-09-22 13:27:20
+2020,230300856@ucaribe.edu.mx,Jessica Alejandra Negroe González,9982933637,W4,inscrito,2025-09-22 13:27:12
+2019,230300928@ucaribe.edu.mx,Gabriel Gregorio Ramirez Cordova,9981167002,W4,inscrito,2025-09-22 13:27:02
+2018,220300883@ucaribe.edu.mx,EFREN ALONSO GARCIA PADILLA,9982444365,W6,inscrito,2025-09-22 13:27:00
+2017,230300914@ucaribe.edu.mx,Alejandra  Antúnez Sanchez,9983064076,W2,inscrito,2025-09-22 13:26:56
+2016,240300908@ucaribe.edu.mx,Valeria  Trujillo Plata,5591649037,W2,inscrito,2025-09-22 13:26:54
+2015,220300771@ucaribe.edu.mx,Ricardo  Rodriguez Acosta,9984069313,W6,inscrito,2025-09-22 13:26:52
+2014,220300855@ucaribe.edu.mx,Jose Eduardo Ake Basto,9982288294,W6,inscrito,2025-09-22 13:26:49
+2013,230300929@ucaribe.edu.mx,Aziel  Abraham Maldonado,5653297007,W2,inscrito,2025-09-22 13:26:44
+2012,220300831@ucaribe.edu.mx,Diana Keyla Córdova Contreras,9982648629,W4,inscrito,2025-09-22 13:26:43
+2011,220300768@ucaribe.edu.mx,ADRIAN ERNESTO ROMERO POOL,9981483324,W6,inscrito,2025-09-22 13:26:37
+2010,200300595@ucaribe.edu.mx,Emmanuel  Garcia Peñaloza,9982288611,W1,cancelado,2025-09-22 13:26:35
+2009,230300919@ucaribe.edu.mx,Diego Ernesto Pat Che,9982322852,W4,inscrito,2025-09-22 13:26:29

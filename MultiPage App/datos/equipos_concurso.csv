@@ -1,4 +1,4 @@
-id,nombre_equipo,estado_id,email_capitan,estado_registro,activo,fecha_registro,fecha_confirmacion
-24,Equipo Tabasco,27,230300854@ucaribe.edu.mx,pendiente,1,2025-09-22 21:15:36,
-2,Equipo Veracruz,30,240300886@ucaribe.edu.mx,pendiente,1,2025-09-22 13:59:16,
-1,Equipo Yucatán,31,250300917@ucaribe.edu.mx,pendiente,1,2025-09-22 12:58:52,
+id,nombre_equipo,estado_id,email_capitan,email_miembro_1,email_miembro_2,email_miembro_3,email_miembro_4,email_miembro_5,estado_registro,activo,fecha_registro,fecha_confirmacion
+24,Equipo Tabasco,27,230300854@ucaribe.edu.mx,220300855@ucaribe.edu.mx,230300962@ucaribe.edu.mx,230300931@ucaribe.edu.mx,230300956@ucaribe.edu.mx,230300901@ucaribe.edu.mx,pendiente,1,2025-09-22 21:15:36,
+2,Equipo Veracruz,30,240300886@ucaribe.edu.mx,lramirez@ucaribe.edu.mx,240300984@ucaribe.edu.mx,240300890@ucaribe.edu.mx,240301073@ucaribe.edu.mx,250300905@ucaribe.edu.mx,pendiente,1,2025-09-22 13:59:16,
+1,Equipo Yucatán,31,250300917@ucaribe.edu.mx,250300896@ucaribe.edu.mx,250301063@ucaribe.edu.mx,250300961@ucaribe.edu.mx,250300947@ucaribe.edu.mx,250300733@ucaribe.edu.mx,pendiente,1,2025-09-22 12:58:52,
