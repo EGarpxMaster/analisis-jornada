@@ -1,4 +1,15 @@
 id,participante_email,actividad_codigo,estado,creado
+2246,240300899@ucaribe.edu.mx,W1,inscrito,2025-09-23 10:49:42
+2245,240300877@ucaribe.edu.mx,W1,inscrito,2025-09-23 10:47:15
+2244,georgina.aguilar.rivera@gmail.com,W1,inscrito,2025-09-23 10:43:42
+2243,240300877@gmail.com,W1,cancelado,2025-09-23 10:41:52
+2242,240300897@ucaribe.edu.mx,W1,inscrito,2025-09-23 10:41:41
+2241,240301024@ucaribe.edu.mx,W1,inscrito,2025-09-23 07:26:59
+2240,210300647@ucaribe.edu.mx,W6,lista_espera,2025-09-23 01:47:58
+2239,230300899@ucaribe.edu.mx,W3,cancelado,2025-09-23 00:00:45
+2238,220300861@ucaribe.edu.mx,W3,lista_espera,2025-09-22 19:40:18
+2237,210300646@ucaribe.edu.mx,W1,inscrito,2025-09-22 18:32:33
+2236,210300646@ucaribe.edu.mx,W5,cancelado,2025-09-22 18:31:58
 2235,240300997@ucaribe.edu.mx,W5,cancelado,2025-09-22 18:25:31
 2234,250300925@ucaribe.edu.mx,W1,inscrito,2025-09-22 18:16:16
 2233,250300899@ucaribe.edu.mx,W1,inscrito,2025-09-22 18:01:26
@@ -159,7 +170,7 @@ id,participante_email,actividad_codigo,estado,creado
 2077,220300882@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:31:18
 2078,220300852@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:31:18
 2076,220300864@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:16
-2075,240300897@ucaribe.edu.mx,W6,lista_espera,2025-09-22 13:31:12
+2075,240300897@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:12
 2073,230300876@ucaribe.edu.mx,W2,inscrito,2025-09-22 13:31:09
 2074,240300926@ucaribe.edu.mx,W4,inscrito,2025-09-22 13:31:09
 2072,220300848@ucaribe.edu.mx,W6,cancelado,2025-09-22 13:31:06
