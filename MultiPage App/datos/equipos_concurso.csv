@@ -1,4 +1,7 @@
 id,nombre_equipo,estado_id,email_capitan,email_miembro_1,email_miembro_2,email_miembro_3,email_miembro_4,email_miembro_5,estado_registro,activo,fecha_registro,fecha_confirmacion
+28,Equipo Chiapas,5,230300926@ucaribe.edu.mx,210300632@ucaribe.edu.mx,230300853@ucaribe.edu.mx,230300930@ucaribe.edu.mx,230300876@ucaribe.edu.mx,230300907@ucaribe.edu.mx,pendiente,1,2025-09-24 10:47:49,
+27,Equipo Quintana Roo,23,220300878@ucaribe.edu.mx,190300651@ucaribe.edu.mx,220300885@ucaribe.edu.mx,230301006@ucaribe.edu.mx,230300960@ucaribe.edu.mx,240300089@ucaribe.edu.mx,pendiente,1,2025-09-23 23:29:52,
+26,Equipo Estado de México,11,250300942@ucaribe.edu.mx,250301170@ucaribe.edu.mx,250301034@ucaribe.edu.mx,250300954@ucaribe.edu.mx,250300952@ucaribe.edu.mx,250300934@ucaribe.edu.mx,pendiente,1,2025-09-23 23:27:17,
 25,Equipo Ciudad de México,7,240300973@ucaribe.edu.mx,240300908@ucaribe.edu.mx,240300924@ucaribe.edu.mx,240300919@ucaribe.edu.mx,250300469@ucaribe.edu.mx,230300768@ucaribe.edu.mx,pendiente,1,2025-09-23 16:07:09,
 24,Equipo Tabasco,27,230300854@ucaribe.edu.mx,220300855@ucaribe.edu.mx,230300962@ucaribe.edu.mx,230300931@ucaribe.edu.mx,230300956@ucaribe.edu.mx,230300901@ucaribe.edu.mx,pendiente,1,2025-09-22 21:15:36,
 2,Equipo Veracruz,30,240300886@ucaribe.edu.mx,lramirez@ucaribe.edu.mx,240300984@ucaribe.edu.mx,240300890@ucaribe.edu.mx,240301073@ucaribe.edu.mx,250300905@ucaribe.edu.mx,pendiente,1,2025-09-22 13:59:16,
