@@ -1,4 +1,32 @@
 id,nombre_completo,email,telefono,categoria,programa,brazalete
+353,Raúl Ignacio Reyes Bolom,240300883@ucaribe.edu,9983454382,Estudiante,Ingeniería Industrial,
+352,Fernanda Guadalupe Camal Cruz,250300856@ucaribe.edu.mx,9983937393,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+351,Diego Israel Juárez Martínez,250300861@ucaribe.edu.mx,9982461904,Estudiante,Ingeniería en Logística y Cadena de Suministro,13.0
+350,LIZBETH  MONZON HERNANDEZ,250300846@ucaribe.edu.mx,9988429218,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+349,Ivette Guadalupe Cortes Castro,250300841@ucaribe.edu.mx,9982656920,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+348,Miguel Angel Rodríguez Ochoa,240300879@ucaribe.edu.mx,9981159741,Estudiante,Ingeniería Industrial,
+347,Miguel Angel Rodríguez Ochoa,240300879@gmail.com,9981159741,Estudiante,Ingeniería Industrial,
+346,Zafira  Jimenez Gonzalez,250300845@ucaribe.edu.mx,9981617570,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+345,RAFAEL  FRIAS CADENA,230300831@ucaribe.edu.mx,9981669433,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+344,Sofía Guadalupe López Nava,250300857@ucaribe.edu.mx,9981084313,Estudiante,Ingeniería en Logística y Cadena de Suministro,18.0
+343,Mary Cruz Roman Zabala,250300862@ucaribe.edu.mx,9985363037,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+342,Luis Arturo Santos Gonzales,250300843@ucaribe.edu.mx,4961786551,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+341,Saydi Yasbeth Canul Almeyda,250300839@ucaribe.edu.mx,9984746677,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+340,Scarlette Lizeth Diaz Alamilla,250300858@ucaribe.edu.mx,9984084471,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+339,Dulce Victoria Prado Olivares,250300855@ucaribe.edu.mx,9983776474,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+338,José Matías Chablé Neri,250300832@ucaribe.edu.mx,9985353421,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+337,Yadir  Galicia Rivera,250301071@ucaribe.edu.mx,9987366969,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+336,damian angel torre muñoz,250300911@ucaribe.edu.mx,9981078266,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+335,keneth sebastian aguirre ricardi,250300867@ucaribe.edu.mx,9988202503,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+334,Cristian Ricardo Sosa Lopez,240300887@ucaribe.edu.mx,9983999332,Estudiante,Ingeniería Industrial,
+333,Karla Yaquelin Valdez Chan,250300833@ucaribe.edu.mx,9988971830,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+332,Geili  Gomez Juarez,250300848@ucaribe.edu.mx,9987150611,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+331,Luis Francisco Alvarado Arellano,250300863@ucaribe.edu.mx,9981048350,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+330,Merary Valeria Cruz Reinhardt,240300721@ucaribe.edu.mx,9985339038,Estudiante,Ingeniería en Logística y Cadena de Suministro,11.0
+329,Samuel  Lino Aparicio,250300844@ucaribe.edu.mx,5519134478,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+328,Antares  Del Castillo Negrete Reyes,adelcastillo@ucaribe.edu.mx,9981673425,Asistente Externo,,
+327,Valeria  Jimenez Olan,250300926@ucaribe.edu.mx,9331001763,Estudiante,Ingeniería Industrial,
+326,Héctor Adrián Ruíz Hernández,240301025@ucaribe.edu.mx,9986463115,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 325,Edgar  Rodríguez López,220300881@ucaribe.edu.mx,9983528393,Estudiante,Ingeniería Industrial,
 324,Néstor Adrian Cabrera Casanova,230300772@ucaribe.edu.mx,9981803508,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 323,Angel De Jesús Fernandez Soro,230300868@ucaribe.edu.mx,2881046629,Estudiante,Ingeniería en Logística y Cadena de Suministro,
@@ -9,7 +37,7 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 318,Edwin Ismael Canché Chan,200300679@ucaribe.edu.mx,9983397699,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,
 317,Orbelin  Jimenez Vazquez,200300671@ucaribe.edu.mx,9981091709,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,
 316,Tomas Vicente Soberanis Ortiz,230300866@ucaribe.edu.mx,9982461759,Estudiante,Ingeniería en Logística y Cadena de Suministro,
-315,Lilia Guadalupe Vazquez Vasquez,250300965@ucaribe.edu.mx,9981291673,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+315,Lilia Guadalupe Vazquez Vasquez,250300965@ucaribe.edu.mx,9981291673,Estudiante,Ingeniería en Logística y Cadena de Suministro,23.0
 314,Diego  Bernal Ruiz,250301090@ucaribe.edu.mx,9984957169,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 313,Lazaro Brayan Foster Aguilar,250300836@ucaribe.edu.mx,9981217485,Estudiante,Ingeniería en Logística y Cadena de Suministro,8.0
 312,Cristobal  Camelo Tamay,250300826@ucaribe.edu.mx,9981009477,Estudiante,Ingeniería en Logística y Cadena de Suministro,247.0
