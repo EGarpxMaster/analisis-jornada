@@ -1,4 +1,13 @@
 id,nombre_completo,email,telefono,categoria,programa,brazalete
+362,Jared  Martinez Varillas,250300938@ucaribe.edu.mx,9981493171,Estudiante,Ingeniería Industrial,
+361,Rafael Del jesus Sanchez Lopez,220300707@ucaribe.edu.mx,9981439215,Estudiante,Ingeniería Industrial,
+360,jonathan Daniel Esquivel Gomez,230300894@ucaribe.edu.mx,9985029561,Estudiante,Ingeniería Industrial,
+359,Erick Alejandro Aguayo Iturralde,230300995@ucaribe.edu.mx,9981260370,Estudiante,Ingeniería Industrial,
+358,Jesus Emiliano Burgos Pech,230300837@ucaribe.edu.mx,9981186625,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+357,Marcus  Gutierrez Anel,250301091@ucaribe.edu.mx,9986629773,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+356,Ivonne Noemi Pech Amaya,250300850@ucaribe.edu.mx,9982306172,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+355,Eliseo Eliseo Rejon Naal,230300779@ucaribe.edu.mx,9983539940,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,
+354,Jesus Emiliano Burgos Pech,230300837@ucairbe.edu.mx,9981186625,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 353,Raúl Ignacio Reyes Bolom,240300883@ucaribe.edu,9983454382,Estudiante,Ingeniería Industrial,
 352,Fernanda Guadalupe Camal Cruz,250300856@ucaribe.edu.mx,9983937393,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 351,Diego Israel Juárez Martínez,250300861@ucaribe.edu.mx,9982461904,Estudiante,Ingeniería en Logística y Cadena de Suministro,
@@ -43,7 +52,7 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 312,Cristobal  Camelo Tamay,250300826@ucaribe.edu.mx,9981009477,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 311,Blanca Lucero Borges Gómez,250300847@ucaribe.edu.mx,9982235660,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 310,Ixchel Daniela García Cabrera,250300866@ucaribe.edu.mx,9982587429,Estudiante,Ingeniería en Logística y Cadena de Suministro,
-309,Yaretzi Guadalupe Uc Salvador,250300859@ucaribe.edu.mx,9983495563,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+309,Yaretzi Guadalupe Uc Salvador,250300859@ucaribe.edu.mx,9983495563,Estudiante,Ingeniería en Logística y Cadena de Suministro,3.0
 308,Angel Leonel Nahuat Ciau,250300950@ucaribe.edu.mx,9984845147,Estudiante,Ingeniería Industrial,
 307,Wilberth Alfredo Torres Chay,240300872@ucaribe.edu.mx,9984266566,Estudiante,Ingeniería Industrial,
 306,Amerika Dayana Rivera Soberanis,230300832@ucaribe.edu.mx,9981432146,Estudiante,Ingeniería en Logística y Cadena de Suministro,

@@ -1,4 +1,9 @@
 id,nombre_equipo,estado_id,email_capitan,email_miembro_1,email_miembro_2,email_miembro_3,email_miembro_4,email_miembro_5,estado_registro,activo,fecha_registro,fecha_confirmacion
+41,Equipo San Luis Potosí,24,230300772@ucaribe.edu.mx,250300866@ucaribe.edu.mx,250300826@ucaribe.edu.mx,230300779@ucaribe.edu.mx,240300721@ucaribe.edu.mx,250300836@ucaribe.edu.mx,pendiente,1,2025-09-24 21:37:54,
+40,Equipo Chihuahua,6,230300894@ucaribe.edu.mx,230300995@ucaribe.edu.mx,230300856@ucaribe.edu.mx,230300882@ucaribe.edu.mx,230300915@ucaribe.edu.mx,220300707@ucaribe.edu.mx,pendiente,1,2025-09-24 21:30:43,
+39,Equipo Coahuila,8,230300866@ucaribe.edu.mx,230300839@ucaribe.edu.mx,230300861@ucaribe.edu.mx,230300833@ucaribe.edu.mx,230300868@ucaribe.edu.mx,230300837@ucaribe.edu.mx,pendiente,1,2025-09-24 21:18:16,
+38,Equipo Nayarit,18,250300850@ucaribe.edu.mx,250300845@ucaribe.edu.mx,250300856@ucaribe.edu.mx,250300841@ucaribe.edu.mx,250301091@ucaribe.edu.mx,250300846@ucaribe.edu.mx,pendiente,1,2025-09-24 21:12:24,
+37,Equipo Sinaloa,25,250300861@ucaribe.edu.mx,250300857@ucaribe.edu.mx,250301090@ucaribe.edu.mx,250300965@ucaribe.edu.mx,250300859@ucaribe.edu.mx,250300847@ucaribe.edu.mx,pendiente,1,2025-09-24 20:45:51,
 36,Equipo Durango,10,250300951@ucaribe.edu.mx,250300959@ucaribe.edu.mx,250300956@ucaribe.edu.mx,250300937@ucaribe.edu.mx,250300950@ucaribe.edu.mx,250300922@ucaribe.edu.mx,pendiente,1,2025-09-24 20:23:26,
 35,Equipo Tamaulipas,28,250300832@ucaribe.edu.mx,250300862@ucaribe.edu.mx,250300839@ucaribe.edu.mx,250300858@ucaribe.edu.mx,250300843@ucaribe.edu.mx,250300867@ucaribe.edu.mx,pendiente,1,2025-09-24 20:03:43,
 34,Equipo Querétaro,22,250300844@ucaribe.edu.mx,250300911@ucaribe.edu.mx,250301071@ucaribe.edu.mx,250300863@ucaribe.edu.mx,250300833@ucaribe.edu.mx,250300848@ucaribe.edu.mx,pendiente,1,2025-09-24 19:23:36,
