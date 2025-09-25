@@ -1,7 +1,11 @@
 id,nombre_completo,email,telefono,categoria,programa,brazalete
+414,Jorge Jesus Pech Manrrero,240300746@ucaribe.edu.mx,9983298400,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,
+413,Michelle Esperanza López González,250300871@ucaribe.edu.mx,9983854565,Estudiante,Ingeniería en Industrias Alimentarias,
+412,Britanny Amanda Radilla Cobos,radillabritanny@gmail.com,9981671230,Estudiante,Ingeniería en Logística y Cadena de Suministro,19.0
+411,Rosa Guadalupe Casas De la Cruz,rcasas@ucaribe.edu.mx,9221761308,Docente,,
 410,Alan Yafte López Alvarez,200300443@ucaribe.edu.mx,9982328446,Estudiante,Ingeniería Industrial,449.0
 409,Itzel  Vinagre Castellanos,220300543@ucaribe.edu.mx,9981203822,Estudiante,Ingeniería Ambiental,572.0
-408,Maria Regina Sarabia Hau,220300810@ucaribe.edu.mx,9981008598,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,
+408,Maria Regina Sarabia Hau,220300810@ucaribe.edu.mx,9981008598,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,789.0
 407,Juan Carlos Canto Coral,carloscanto0799@gmail.com,9982335393,Asistente Externo,,
 406,Samuel  Rodríguez Morales,230300623@ucaribe.edu.mx,9981318692,Asistente Externo,,244.0
 405,Ambar Atzimba Gutierrez Anell,240301030@ucaribe.edi.mx,9987051293,Staff,,
@@ -120,14 +124,14 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 292,Amor  Bastar Hernández,230300840@ucaribe.edu.mx,9933983189,Estudiante,Ingeniería en Logística y Cadena de Suministro,
 291,José Emiiio Bacab Cuxim,230300833@ucaribe.edu.mx,9983158679,Estudiante,Ingeniería en Logística y Cadena de Suministro,220.0
 290,Joselin Michelle Hernandez Cordova,250300975@ucaribe.edu.mx,2311506929,Estudiante,Ingeniería en Inteligencia Artificial,
-289,Joel Alberto Bacab Coronado,jbacab@ucaribe.edu.mx,9982444616,Docente,,
+289,Joel Alberto Bacab Coronado,jbacab@ucaribe.edu.mx,9982444616,Docente,,136.0
 288,Jose Antonio Arevalo Barrientos,220300860@ucaribe.edu.mx,9988447280,Estudiante,Ingeniería Industrial,52.0
 287,Pamela  Serrano Itza,240300089@ucaribe.edu.mx,9984130584,Estudiante,Ingeniería en Industrias Alimentarias,
 286,Gustavo  Cadenas Sánchez,240300914@ucaribe.edu.mx,9985252489,Estudiante,Ingeniería Industrial,573.0
 285,Ignacio Enrique Méndez Chávez,200300360@ucaribe.edu.mx,9986853669,Estudiante,Ingeniería Industrial,
 284,Orlando Alonso Echeverria Beytia,190300651@ucaribe.edu.mx,9985399819,Estudiante,Ingeniería Industrial,
 283,Betzy Berenice Hernández Castro,250301170@ucaribe.edu.mx,9987688196,Estudiante,Ingeniería en Inteligencia Artificial,
-282,Niria Zuleika Montalvo Alvarado,240301093@ucaribe.edu.mx,9982464191,Estudiante,Ingeniería en Logística y Cadena de Suministro,
+282,Niria Zuleika Montalvo Alvarado,240301093@ucaribe.edu.mx,9982464191,Estudiante,Ingeniería en Logística y Cadena de Suministro,485.0
 281,Nicole  Cabrera Mut,230300830@ucaribe.edu.mx,9988109934,Estudiante,Ingeniería en Logística y Cadena de Suministro,857.0
 280,Valeria  Aguayo Pinzon,210300604@ucaribe.edu.mx,9833040259,Estudiante,Ingeniería Industrial,
 279,Gabriel Paul Quijano Gastellou,paulgastellou@gmail.com,9981342856,Estudiante,Ingeniería Industrial,765.0
@@ -169,33 +173,33 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 241,Mateo  Hernández Mendoza,250300928@ucaribe.edu.mx,9984649710,Estudiante,Ingeniería Industrial,760.0
 240,Guillermo  Balam Hernández,250300899@ucaribe.edu.mx,9981553379,Estudiante,Ingeniería Industrial,497.0
 239,Julio Cesar Farfan Mahay,240300927@ucaribe.edu.mx,9983977122,Estudiante,Ingeniería Industrial,50.0
-238,Carlos Moises Moo Tamay,210300597@ucaribe.edu.mx,9984768251,Estudiante,Ingeniería Industrial,
+238,Carlos Moises Moo Tamay,210300597@ucaribe.edu.mx,9984768251,Estudiante,Ingeniería Industrial,774.0
 237,Michael Rafael Ku De la cruz,210300609@ucaribe.edu.mx,9983850144,Estudiante,Ingeniería Industrial,
-236,Juan Manuel Osorio Diaz,250300937@ucaribe.edu.mx,9988977168,Estudiante,Ingeniería Industrial,
+236,Juan Manuel Osorio Diaz,250300937@ucaribe.edu.mx,9988977168,Estudiante,Ingeniería Industrial,566.0
 235,José Antonio Arevalo Barrientos,220300860@gmail.edu.mx,9988447280,Estudiante,Ingeniería Industrial,
 234,Francisco Javier López Hernández,240300896@ucaribe.edu.mx,9984771122,Estudiante,Ingeniería Industrial,45.0
-233,Angel David Victoriano Can,230300927@ucaribe.edu.mx,9982009325,Estudiante,Ingeniería Industrial,
+233,Angel David Victoriano Can,230300927@ucaribe.edu.mx,9982009325,Estudiante,Ingeniería Industrial,607.0
 232,Ámbar Abril Valdez Aguilar,250301029@ucaribe.edu.mx,9984042843,Estudiante,Ingeniería Industrial,682.0
 231,José Antonio Huchin De la cruz,250301083@ucaribe.edu.mx,9982357632,Estudiante,Ingeniería Industrial,251.0
-230,Daniel Alexander Beltrán Gutiérrez,250300914@ucaribe.edu.mx,9981922383,Estudiante,Ingeniería Industrial,
+230,Daniel Alexander Beltrán Gutiérrez,250300914@ucaribe.edu.mx,9981922383,Estudiante,Ingeniería Industrial,329.0
 229,Leonardo Emmanuel Sánchez González,250300922@ucaribe.edu.mx,9984802723,Estudiante,Ingeniería Industrial,
 228,Diego Aaron Ramirez Pool,250301031@ucaribe.edu.mx,9984149365,Estudiante,Ingeniería Industrial,
 227,Joel Valentín Castro Canche,250300940@ucaribe.edu.mx,9982356079,Estudiante,Ingeniería Industrial,
 226,Deyvy Alexander Villalobos García,250300953@uqcaribe.edu.mx,9983054654,Estudiante,Ingeniería Industrial,
 225,Maria Fernanda Chable Martinez,250300967@ucaribe.edu.mx,9981316224,Estudiante,Ingeniería Industrial,
 224,Israel  Corona Peñafiel,250300935@ucaribe.edu.mx,9985204929,Estudiante,Ingeniería Industrial,35.0
-223,Ivonne Naomi Farias Miranda,250300919@ucaribe.edu.mx,9983437428,Estudiante,Ingeniería Industrial,
-222,Diana Abril Morales Martinez,250300951@ucaribe.edu.mx,9982588885,Estudiante,Ingeniería Industrial,
+223,Ivonne Naomi Farias Miranda,250300919@ucaribe.edu.mx,9983437428,Estudiante,Ingeniería Industrial,328.0
+222,Diana Abril Morales Martinez,250300951@ucaribe.edu.mx,9982588885,Estudiante,Ingeniería Industrial,431.0
 221,Brandon Amilcar Roblero Hernandez,250300918@ucaribe.edu.mx,9982351413,Estudiante,Ingeniería Industrial,204.0
 220,Angel Leonel Nahuat Ciau,angelnahuatciau@gmail.com,9984845147,Estudiante,Ingeniería Industrial,
 219,Jessica  Zaragoza Gómez,250300932@ucaribe.edu.mx,9984492884,Estudiante,Ingeniería Industrial,
-218,Luis Angel Alcala Mendez,250300959@ucaribe.edu.mx,9982322553,Estudiante,Ingeniería Industrial,
+218,Luis Angel Alcala Mendez,250300959@ucaribe.edu.mx,9982322553,Estudiante,Ingeniería Industrial,441.0
 217,Alexis Gael Carrillo Roa,250300933@ucaribe.edu.mx,5610328529,Estudiante,Ingeniería Industrial,
 216,Dorian Rafael Tukuch Baez,250300915@ucaribe.edu.mx,9984243221,Estudiante,Ingeniería Industrial,766.0
 215,Dana Elena Diaz Ramírez,250301087@ucaribe.edu.mx,7443126519,Estudiante,Ingeniería Industrial,942.0
 214,Obet Sebastián Lopez Sánchez,250300939@ucaribe.edu.mx,9987596057,Estudiante,Ingeniería Industrial,
 213,Ivonne Naomi Farías Miranda,ivonnefarias145@gmail.com,9983437428,Estudiante,Ingeniería Industrial,
-212,Bryan  León Estrada,250300956@ucaribe.edu.mx,9987334995,Estudiante,Ingeniería Industrial,
+212,Bryan  León Estrada,250300956@ucaribe.edu.mx,9987334995,Estudiante,Ingeniería Industrial,921.0
 211,Juan Felipe Pérez Vázquez,jperez@ucaribe.edu.mx,9988844000,Docente,,487.0
 210,Juan Manuel Osorio Diaz,juanmanuelosoriodiaz@gmail.com,9988977168,Estudiante,Ingeniería Industrial,
 209,Zaira Melissa Matias Vazquez,250300966@ucaribe.edu.mx,9983485109,Estudiante,Ingeniería Industrial,702.0
@@ -218,15 +222,15 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 191,Zuri Sarahí Álvarez Hernández,230300932@ucaribe.edu.mx,9981437936,Estudiante,Ingeniería Industrial,985.0
 190,Estrella Marian Castro Meneses,250300929@ucaribe.edu.mx,9981148983,Estudiante,Ingeniería Industrial,909.0
 189,Saul  Nahuat Alvarado,230300880@ucaribe.edu.mx,9982439299,Estudiante,Ingeniería Industrial,980.0
-188,johana  vazquez merino,210300606@ucaribe.edu.mx,9984876834,Estudiante,Ingeniería Industrial,
+188,johana  vazquez merino,210300606@ucaribe.edu.mx,9984876834,Estudiante,Ingeniería Industrial,138.0
 187,Gustavo Luis Pacheco Gutiérrez,gg2937010@gmail.com,9987683278,Asistente Externo,,
-186,Javier Alejandro Montalvo Carmona,210300656@ucaribe.edu.mx,9981230612,Estudiante,Ingeniería Industrial,
+186,Javier Alejandro Montalvo Carmona,210300656@ucaribe.edu.mx,9981230612,Estudiante,Ingeniería Industrial,435.0
 185,Alexander Yhair Canto Mex,220300849@ucaribe.edu.mx,9981847164,Estudiante,Ingeniería Industrial,533.0
 184,Zuemy Karely Pavon Torres,230301047@ucaribe.edu.mx,9983400169,Estudiante,Ingeniería Industrial,
 183,Sofia  Martínez González,220300867@ucaribe.edu.mx,9981291917,Estudiante,Ingeniería Industrial,
 182,Sabino Miguel Rodríguez Flores,250300920@ucaribe.edu.mx,9981143202,Estudiante,Ingeniería Industrial,561.0
 181,Joel David Cupul Canche,240300930@ucaribe.edu.mx,9984039186,Estudiante,Ingeniería Industrial,
-180,Julio Cesar Dominguez Morales,200300354@ucaribe.edu.mx,9988808682,Estudiante,Ingeniería Industrial,
+180,Julio Cesar Dominguez Morales,200300354@ucaribe.edu.mx,9988808682,Estudiante,Ingeniería Industrial,902.0
 179,Aldair Alexander Jimenez Carmona,180300621@ucaribe.edu.mx,9981543741,Estudiante,Ingeniería Industrial,
 178,Carlos Amado Moreno Sánchez,220300878@ucaribe.edu.mx,9983948953,Estudiante,Ingeniería Industrial,
 177,Keyla Monserrath Gomes Mejia,230300853@ucaribe.edu.mx,9981921236,Estudiante,Ingeniería Industrial,518.0
@@ -240,12 +244,12 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 169,Luis Alexis Nicolas Hernandez,250300954@ucaribe.edu.mx,9984935621,Estudiante,Ingeniería Industrial,494.0
 168,Isaac . Rojas Caporal,250300930@ucaribe.edu.mx,9981542196,Estudiante,Ingeniería Industrial,286.0
 167,Ivana  Rodríguez Herrera,ivanarodriguezherrera9@gmail.com,9981179389,Estudiante,Ingeniería Industrial,652.0
-166,Bryan Armando Báez Beristain,210300610@ucaribe.edu.mx,9985781142,Estudiante,Ingeniería Industrial,
+166,Bryan Armando Báez Beristain,210300610@ucaribe.edu.mx,9985781142,Estudiante,Ingeniería Industrial,476.0
 165,Jonathan Geovanny Itzincab Mena,230300895@ucaribe.edu.mx,9987332606,Estudiante,Ingeniería Industrial,207.0
 164,Lizeth Estephany May Itza,220300838@ucaribe.edu.mx,9981238141,Estudiante,Ingeniería Industrial,681.0
 163,Keren Jaquelin Alvarez Luis,240300903@ucaribe.edu.mx,9984936447,Estudiante,Ingeniería Industrial,979.0
 162,Orlando  Justo Gallegos,200300404@ucaribe.edu.mx,9983492769,Estudiante,Ingeniería Industrial,694.0
-161,Zamora  Abraham Juárez,220300854@ucaribe.edu.mx,9982252535,Estudiante,Ingeniería Industrial,
+161,Zamora  Abraham Juárez,220300854@ucaribe.edu.mx,9982252535,Estudiante,Ingeniería Industrial,234.0
 160,Carlos Eduardo Chan Dzib,240300984@ucaribe.edu.mx,9983084894,Estudiante,Ingeniería Industrial,724.0
 159,Brian Armando Escamilla Bautista,230300899@gmail.com,9981648774,Estudiante,Ingeniería Industrial,
 158,Nayla Dalila Uitzil Cano,220300846@ucaribe.edu.mx,9982468812,Estudiante,Ingeniería Industrial,
@@ -259,14 +263,14 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 150,Diego Ricardo Flores Concepcion,250300955@ucaribe.edu.mx,9981303589,Estudiante,Ingeniería Industrial,899.0
 149,Hector Manuel dela cruz Mahla Canche,240300909@ucaribe.edu.mx,9983113589,Estudiante,Ingeniería Industrial,241.0
 148,Diego  Ubaldo Gomez,230300924@ucaribe.edu.mx,9983221477,Estudiante,Ingeniería Industrial,577.0
-147,Samuel Baltazar Manzanilla Naal,220300852@ucaribe.edu.mx,9985789225,Estudiante,Ingeniería Industrial,
+147,Samuel Baltazar Manzanilla Naal,220300852@ucaribe.edu.mx,9985789225,Estudiante,Ingeniería Industrial,531.0
 146,Carlos Esteban Salgado Torres,220300870@ucaribe.edu.mx,9988467400,Estudiante,Ingeniería Industrial,
 145,Jairo Julian Olán Cob,210300639@ucaribe.edu.mx,9983061465,Estudiante,Ingeniería Industrial,
 144,Aixa Guadalupe Mena Soto,220300865@ucaribe.edu.mx,9984070463,Estudiante,Ingeniería Industrial,538.0
 143,Edwin Ulises Pat Coronado,240300905@ucaribe.edu.mx,9984949064,Estudiante,Ingeniería Industrial,930.0
 142,karol ixchel flores avila,250300943@ucaribe.edu.mx,9981843026,Estudiante,Ingeniería Industrial,752.0
 141,Edgar  Rodríguez López,edgarole11@gmail.com,9983528393,Estudiante,Ingeniería Industrial,
-140,Carlos Mijail Zea González,230300889@ucaribe.edu.mx,9982629834,Estudiante,Ingeniería Industrial,
+140,Carlos Mijail Zea González,230300889@ucaribe.edu.mx,9982629834,Estudiante,Ingeniería Industrial,20.0
 139,Kevin Uriel Santos Uc,230300940@ucaribe.edu.mx,9981970096,Estudiante,Ingeniería Industrial,
 138,Samara Alejandra Chac Zapata,200300364@ucaribe.edu.mx,9981269775,Estudiante,Ingeniería Industrial,
 137,Rafael Hervé Vargas Castañeda,240300898@ucaribe.edu.mx,9996692600,Estudiante,Ingeniería Industrial,
@@ -296,7 +300,7 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 113,Adrian  Peraza Cituk,190300691@ucaribe.edu.mx,9834022635,Estudiante,Ingeniería Industrial,
 112,Dahiana Michelle Vázquez Villa,240300924@ucaribe.edu.mx,7775342154,Estudiante,Ingeniería Industrial,
 111,Diego Alexis Hernández Sánchez,230300920@ucaribe.edu.mx,9984772783,Estudiante,Ingeniería Industrial,257.0
-110,Daniel Abdiek Chan Acosta,210300638@ucaribe.edu.mx,9997639731,Estudiante,Ingeniería Industrial,
+110,Daniel Abdiek Chan Acosta,210300638@ucaribe.edu.mx,9997639731,Estudiante,Ingeniería Industrial,6.0
 109,Dulce Sofia Mena Martinez,230300908@ucaribe.edu.mx,9981372323,Estudiante,Ingeniería Industrial,537.0
 108,Rafael Andrés Hernández Mena,210300595@ucaribe.edu.mx,9982470590,Estudiante,Ingeniería Industrial,
 107,Jaime Johan Fierro Villegas,240300997@ucaribe.edu.mx,9983661822,Estudiante,Ingeniería Industrial,733.0
@@ -305,7 +309,7 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 104,Gabri Armando Conrado Santiago,230300901@ucaribe.edu.mx,9982430257,Estudiante,Ingeniería Industrial,448.0
 103,Héctor Alejandro Rodríguez López,230300865@ucaribe.edu.mx,9983370519,Estudiante,Ingeniería Industrial,
 102,José Alejandro Dueñas Clara,240300886@ucaribe.edu.mx,9981515150,Estudiante,Ingeniería Industrial,713.0
-101,Alejandro Jesus Kantun Canche,210300661@ucaribe.edu.mx,9983530435,Estudiante,Ingeniería Industrial,
+101,Alejandro Jesus Kantun Canche,210300661@ucaribe.edu.mx,9983530435,Estudiante,Ingeniería Industrial,77.0
 100,Juana Berenice Valentín Gregorio,220300839@ucaribe.edu.mx,9982132230,Estudiante,Ingeniería Industrial,
 99,Diego Salvador Hernandez Estrada,250300952@ucaribe.edu.mx,9984861584,Estudiante,Ingeniería Industrial,855.0
 97,Tila Jazmin Chable Sarao,220300884@ucaribe.edu.mx,0084016995,Estudiante,Ingeniería Industrial,
@@ -326,7 +330,7 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 84,Diego Jeronimo Alcocer Ricardez,250301077@ucaribe.edu.mx,9988961924,Estudiante,Ingeniería Industrial,771.0
 82,Valeria  Trujillo Plata,240300908@ucaribe.edu.mx,5591649037,Estudiante,Ingeniería Industrial,711.0
 81,Ariana Guadalupe Vargas Burgos,240300973@ucaribe.edu.mx,9983381089,Estudiante,Ingeniería Industrial,
-80,Angel Alberto Cen González,220300833@ucaribe.edu.mx,9983400037,Estudiante,Ingeniería Industrial,
+80,Angel Alberto Cen González,220300833@ucaribe.edu.mx,9983400037,Estudiante,Ingeniería Industrial,231.0
 79,Evelyn Yhanell Koh Be,250300903@ucaribe.edu.mx,9983373929,Estudiante,Ingeniería Industrial,753.0
 78,Carlos Alberto Oavndo Mendez,220300837@ucaribe.edu.mx,9981801820,Estudiante,Ingeniería Industrial,716.0
 77,Ana Kristel Tec Valdez,240300888@ucaribe.edu.mx,9983975056,Estudiante,Ingeniería Industrial,639.0
@@ -334,18 +338,18 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 74,Santiago Emir Novelo Rodriguez,250300902@ucaribe.edu.mx,9981693533,Estudiante,Ingeniería Industrial,755.0
 75,Johan Alexis Escamilla Bautista,240300874@ucaribe.edu.mx,9981737614,Estudiante,Ingeniería Industrial,679.0
 73,Isaac Alejandro Morga De la Cruz,230300912@ucaribe.edu.mx,9983224723,Estudiante,Ingeniería Industrial,737.0
-72,Christian Geovanni Morfin Herrera,230300902@ucaribe.edu.mx,9831221248,Estudiante,Ingeniería Industrial,
+72,Christian Geovanni Morfin Herrera,230300902@ucaribe.edu.mx,9831221248,Estudiante,Ingeniería Industrial,442.0
 71,Jorge Alberto Loria Chimal,220300876@ucaribe.edu.mx,9983925807,Estudiante,Ingeniería Industrial,568.0
 70,José Manuel Concepción Castro Tamay,230300876@ucaribe.edu.mx,9851469260,Estudiante,Ingeniería Industrial,211.0
 69,Josh Abraham Guadarrama Cortes,230300141@ucaribe.edu.mx,9981910860,Estudiante,Ingeniería Industrial,
 68,Alexis Uriel Vieyra Alvarez,250300942@ucaribe.edu.mx,7226822069,Estudiante,Ingeniería Industrial,644.0
 67,Roberto Luis Alta Couoh,230300887@ucaribe.edu.mx,9981146705,Estudiante,Ingeniería Industrial,196.0
-65,Carlos Eduardo Bautista Macias,230300916@ucaribe.edu.mx,9983024111,Estudiante,Ingeniería Industrial,
+65,Carlos Eduardo Bautista Macias,230300916@ucaribe.edu.mx,9983024111,Estudiante,Ingeniería Industrial,331.0
 66,Brayan Hairon Quintana Zamudio,240300919@ucaribe.edu.mx,9984295332,Estudiante,Ingeniería Industrial,649.0
 64,Mitzuri  Penagos Gonzalez,210300657@ucaribe.edu.mx,9983223585,Estudiante,Ingeniería Industrial,
 63,Ricardo  Rodriguez Acosta,220300771@ucaribe.edu.mx,9984069313,Estudiante,Ingeniería Industrial,750.0
 62,Cassandra Novalí Rojas Luna,240300907@ucaribe.edu.mx,9982580213,Estudiante,Ingeniería Industrial,699.0
-61,Jasson Nicolas Jimenez Morales,210300654@ucaribe.edu.mx,9983240997,Estudiante,Ingeniería Industrial,
+61,Jasson Nicolas Jimenez Morales,210300654@ucaribe.edu.mx,9983240997,Estudiante,Ingeniería Industrial,132.0
 60,Diana Keyla Córdova Contreras,220300831@ucaribe.edu.mx,9982648629,Estudiante,Ingeniería Industrial,
 59,Diego Ernesto Pat Che,230300919@ucaribe.edu.mx,9982322852,Estudiante,Ingeniería Industrial,
 58,Alejandra  Antúnez Sanchez,230300914@ucaribe.edu.mx,9983064076,Estudiante,Ingeniería Industrial,757.0
@@ -362,17 +366,17 @@ id,nombre_completo,email,telefono,categoria,programa,brazalete
 47,Victor Fernando Limberg Euan,250300957@ucaribe.edu.mx,9981498647,Estudiante,Ingeniería Industrial,744.0
 46,Tadeo Alexander Poot Alfonso,250300921@ucaribe.edu.mx,9987586735,Estudiante,Ingeniería Industrial,200.0
 45,Alexa Linette Barrita Ramirez,250300909@ucaribe.edu.mx,9983033629,Estudiante,Ingeniería Industrial,684.0
-44,ADRIAN ERNESTO ROMERO POOL,220300768@ucaribe.edu.mx,9981483324,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,
+44,ADRIAN ERNESTO ROMERO POOL,220300768@ucaribe.edu.mx,9981483324,Estudiante,Ingeniería en Datos e Inteligencia Organizacional,434.0
 43,Isaac . Rojas Caporal,isaacrojascaporal@gmail.com,9981542196,Estudiante,Ingeniería Industrial,
 42,Mia  Meneses Schott,bubblesggukie@gmail.com,9983003686,Estudiante,Ingeniería Industrial,199.0
 41,Sofía Renata Castro Alcocer,250300896@ucaribe.edu.mx,9983024597,Estudiante,Ingeniería Industrial,192.0
 40,Jose De Jesus Candia Alejandro,190300701@ucaribe.edu.mx,9983566912,Estudiante,Ingeniería Industrial,
 39,Ezquiel Isaias Martinez Yam,230300854@ucaribe.edu.mx,9981319281,Estudiante,Ingeniería Industrial,162.0
 38,Vanessa  Muñoz Romero,230300931@ucaribe.edu.mx,9983984508,Estudiante,Ingeniería Industrial,202.0
-37,RICHARD  BERNAL SOSA,200300383@ucaribe.edu.mx,9981960547,Estudiante,Ingeniería Industrial,
+37,RICHARD  BERNAL SOSA,200300383@ucaribe.edu.mx,9981960547,Estudiante,Ingeniería Industrial,5.0
 36,Vanessa  Muñoz Romero,230300931@ucatibe.edu.mx,9983984508,Estudiante,Ingeniería Industrial,
 35,Valeria  Olan Jimenez,250300926@ucaribe.edu,9331001763,Estudiante,Ingeniería Industrial,
-34,Johan Gael Morales Peña,230300847@ucaribe.edu.mx,4772520025,Estudiante,Ingeniería Industrial,
+34,Johan Gael Morales Peña,230300847@ucaribe.edu.mx,4772520025,Estudiante,Ingeniería Industrial,653.0
 33,Valeria Danae Cano Sanchez,250300917@ucaribe.edu.mx,9985350958,Estudiante,Ingeniería Industrial,762.0
 32,Angel Zavala Zavala Chuc,210300583@ucaribe.edu.mx,9981063763,Estudiante,Ingeniería Industrial,164.0
 31,Rodolfo Gabriel Brambilla Romay,250300947@ucaribe.edu.mx,9982281064,Estudiante,Ingeniería Industrial,195.0
