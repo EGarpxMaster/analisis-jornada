@@ -1,29 +1,63 @@
-
-import streamlit as st
-import pandas as pd
-
+"""
+Dashboard Principal - Jornada de Ingeniería Industrial 2025
+Visualizaciones y análisis de datos del evento desde Supabase
+"""
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import sys
 from pathlib import Path
 
-st.set_page_config(page_title="Dashboard CSV Jornada II", page_icon="📊", layout="wide", initial_sidebar_state="expanded")
-
+# Agregar el directorio raíz al path para poder importar utils
 ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "datos"
+sys.path.insert(0, str(ROOT))
 
-# Cargar datos
-df_participantes = pd.read_csv(DATA_DIR / "participantes.csv") if (DATA_DIR / "participantes.csv").exists() else pd.DataFrame()
-df_inscripciones = pd.read_csv(DATA_DIR / "inscripciones_workshop.csv") if (DATA_DIR / "inscripciones_workshop.csv").exists() else pd.DataFrame()
-df_equipos = pd.read_csv(DATA_DIR / "equipos_concurso.csv") if (DATA_DIR / "equipos_concurso.csv").exists() else pd.DataFrame()
+from utils.supabase_client import (
+    obtener_participantes,
+    obtener_inscripciones_workshop,
+    obtener_equipos_concurso,
+    obtener_actividades,
+    obtener_estadisticas_participacion
+)
 
-st.title("📊 Dashboard de Análisis Jornada II (CSV)")
+st.set_page_config(
+    page_title="Dashboard JII 2025", 
+    page_icon="📊", 
+    layout="wide", 
+    initial_sidebar_state="expanded"
+)
 
-# KPIs
-col1, col2, col3 = st.columns(3)
-col1.metric("Participantes registrados", len(df_participantes))
-col2.metric("Inscripciones a Workshops", len(df_inscripciones))
-col3.metric("Equipos registrados", len(df_equipos))
+st.title("Dashboard de Análisis - Jornada de Ingeniería Industrial 2025")
+st.markdown("Análisis en tiempo real de datos del evento")
+
+# Cargar datos desde Supabase
+with st.spinner("Cargando datos desde Supabase..."):
+    df_participantes = obtener_participantes()
+    df_inscripciones = obtener_inscripciones_workshop()
+    df_equipos = obtener_equipos_concurso()
+    stats = obtener_estadisticas_participacion()
+
+# KPIs principales
+st.subheader("Indicadores Clave")
+col1, col2, col3, col4 = st.columns(4)
+
+col1.metric(
+    "Participantes Registrados", 
+    stats.get("total_participantes", 0)
+)
+col2.metric(
+    "Inscripciones a Actividades", 
+    stats.get("total_inscripciones", 0)
+)
+col3.metric(
+    "Equipos Concurso", 
+    stats.get("total_equipos", 0)
+)
+col4.metric(
+    "Encuestas Completadas",
+    stats.get("participantes_con_encuesta", 0),
+    delta=f"{round(stats.get('participantes_con_encuesta', 0) / max(stats.get('total_participantes', 1), 1) * 100, 1)}%"
+)
 
 st.markdown("---")
 
@@ -58,7 +92,7 @@ else:
     st.info("No hay datos de inscripciones a workshops.")
 
 # Inscripciones por actividad
-st.subheader("Inscripciones por Workshop")
+st.subheader("Inscripciones por Actividad")
 if not df_inscripciones.empty:
     act_counts = df_inscripciones['actividad_codigo'].value_counts().reset_index()
     act_counts.columns = ['Workshop', 'Cantidad']
@@ -69,12 +103,21 @@ else:
 
 
 # Evolución temporal de inscripciones por hora
-st.subheader("Evolución Temporal de Inscripciones a Workshops por Hora")
-if not df_inscripciones.empty and 'creado' in df_inscripciones.columns:
-    df_inscripciones['creado'] = pd.to_datetime(df_inscripciones['creado'], errors='coerce')
-    df_inscripciones['hora'] = df_inscripciones['creado'].dt.floor('h')
-    hora_counts = df_inscripciones.groupby('hora').size().reset_index(name='Cantidad')
-    fig_hora = px.line(hora_counts, x='hora', y='Cantidad', markers=True, title='Inscripciones por Hora')
+st.subheader("Evolución Temporal de Inscripciones por Hora")
+if not df_inscripciones.empty and 'created_at' in df_inscripciones.columns:
+    df_temp = df_inscripciones.copy()
+    df_temp['created_at'] = pd.to_datetime(df_temp['created_at'], errors='coerce')
+    df_temp['hora'] = df_temp['created_at'].dt.floor('h')
+    hora_counts = df_temp.groupby('hora').size().reset_index(name='Cantidad')
+    fig_hora = px.line(
+        hora_counts, 
+        x='hora', 
+        y='Cantidad', 
+        markers=True, 
+        title='Inscripciones por Hora',
+        labels={'hora': 'Hora', 'Cantidad': 'Número de Inscripciones'}
+    )
+    fig_hora.update_traces(line_color='#1f77b4', line_width=2, marker=dict(size=8))
     st.plotly_chart(fig_hora, use_container_width=True)
 else:
     st.info("No hay datos de fechas de inscripciones.")
