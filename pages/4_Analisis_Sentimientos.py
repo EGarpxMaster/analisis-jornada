@@ -5,6 +5,7 @@ Análisis de texto de respuestas abiertas usando procesamiento de lenguaje natur
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 from collections import Counter
 import sys
 from pathlib import Path
@@ -16,6 +17,14 @@ sys.path.insert(0, str(ROOT))
 from utils.supabase_client import obtener_respuestas_encuesta
 from utils.preguntas_encuesta import PREGUNTAS_TEXTO_LARGO, obtener_pregunta_por_id
 
+# Importar TextBlob para análisis de sentimientos avanzado
+try:
+    from textblob import TextBlob
+    TEXTBLOB_DISPONIBLE = True
+except ImportError:
+    TEXTBLOB_DISPONIBLE = False
+    st.warning("⚠️ TextBlob no está instalado. Ejecuta: `pip install textblob textblob-es` para análisis avanzado.")
+
 st.set_page_config(
     page_title="Análisis de Sentimientos JII 2025",
     page_icon="💬",
@@ -25,9 +34,9 @@ st.set_page_config(
 st.title("Análisis de Sentimientos - Jornada de Ingeniería Industrial 2025")
 st.markdown("Análisis de respuestas de texto largo mediante procesamiento de lenguaje natural")
 
-# Cargar todas las respuestas de encuesta
+# Cargar todas las respuestas de encuesta (ANONIMIZADAS)
 with st.spinner("Cargando respuestas de encuesta..."):
-    df_respuestas = obtener_respuestas_encuesta()
+    df_respuestas = obtener_respuestas_encuesta(anonimizar=True)
 
 if df_respuestas.empty:
     st.warning("No hay respuestas de encuesta disponibles")
@@ -50,12 +59,12 @@ st.subheader("Estadísticas Generales")
 col1, col2, col3, col4 = st.columns(4)
 
 total_respuestas_texto = len(df_texto)
-participantes_texto = df_texto['participante_email'].nunique()
+participantes_texto = df_texto['participante_anonimo'].nunique() if 'participante_anonimo' in df_texto.columns else 0
 preguntas_texto = df_texto['pregunta_id'].nunique()
 promedio_longitud = df_texto['respuesta'].str.len().mean()
 
 col1.metric("Total de Respuestas de Texto", total_respuestas_texto)
-col2.metric("Participantes Únicos", participantes_texto)
+col2.metric("Participantes Únicos (Anónimos)", participantes_texto)
 col3.metric("Preguntas con Texto", preguntas_texto)
 col4.metric("Longitud Promedio", f"{promedio_longitud:.0f} caracteres")
 
@@ -92,10 +101,11 @@ with tab1:
         st.markdown(f"**Pregunta:** {pregunta_info['texto']}")
         st.markdown(f"**Total de respuestas:** {len(df_pregunta)}")
         
-        # Mostrar todas las respuestas en un expander
+        # Mostrar todas las respuestas en un expander (ANÓNIMAS)
         with st.expander("Ver todas las respuestas", expanded=False):
             for idx, row in df_pregunta.iterrows():
-                st.markdown(f"**Participante:** {row['nombre_completo']}")
+                participante_id = row.get('participante_anonimo', 'Participante Anónimo')
+                st.markdown(f"**{participante_id}**")
                 st.write(row['respuesta'])
                 st.markdown("---")
         
@@ -192,10 +202,24 @@ with tab2:
         st.info("No hay respuestas para esta pregunta")
 
 with tab3:
-    st.markdown("### Análisis de Sentimientos Básico")
+    st.markdown("### Análisis de Sentimientos Avanzado con TextBlob")
+    
+    if not TEXTBLOB_DISPONIBLE:
+        st.error("""
+        ❌ **TextBlob no está instalado.**
+        
+        Para habilitar el análisis de sentimientos avanzado, ejecuta:
+        ```
+        pip install textblob textblob-es
+        python -m textblob.download_corpora
+        ```
+        """)
+        st.stop()
+    
     st.info("""
-    **Nota:** Este análisis utiliza un enfoque básico basado en palabras clave.
-    Para un análisis más preciso, se recomienda integrar modelos de NLP avanzados.
+    **Análisis con TextBlob:** Utiliza procesamiento de lenguaje natural para analizar:
+    - **Polaridad:** Mide el sentimiento (negativo a positivo) en escala de -1 a +1
+    - **Subjetividad:** Mide qué tan objetivo/subjetivo es el texto (0 = objetivo, 1 = subjetivo)
     """)
     
     # Selector de pregunta
@@ -206,45 +230,67 @@ with tab3:
     )
     
     pregunta_id_sent = preguntas_opciones[pregunta_seleccionada_sent]
-    df_pregunta_sent = df_texto[df_texto['pregunta_id'] == pregunta_id_sent]
+    df_pregunta_sent = df_texto[df_texto['pregunta_id'] == pregunta_id_sent].copy()
     
     if not df_pregunta_sent.empty:
-        # Palabras clave para clasificación básica
-        palabras_positivas = {
-            'excelente', 'bueno', 'buena', 'increíble', 'genial', 'fantástico', 'maravilloso',
-            'perfecto', 'impresionante', 'útil', 'interesante', 'motivador', 'inspirador',
-            'profesional', 'calidad', 'aprendí', 'enriquecedor', 'valioso', 'gratificante',
-            'satisfactorio', 'positivo', 'destacado', 'sobresaliente', 'relevante'
-        }
+        # Función para analizar sentimiento con TextBlob
+        @st.cache_data
+        def analizar_sentimiento_textblob(texto):
+            """Analiza el sentimiento usando TextBlob"""
+            try:
+                blob = TextBlob(texto)
+                # Traducir al inglés para mejor precisión (TextBlob funciona mejor en inglés)
+                # pero primero intentamos directamente en español
+                polaridad = blob.sentiment.polarity
+                subjetividad = blob.sentiment.subjectivity
+                
+                # Clasificar según polaridad
+                if polaridad > 0.1:
+                    sentimiento = 'Positivo'
+                elif polaridad < -0.1:
+                    sentimiento = 'Negativo'
+                else:
+                    sentimiento = 'Neutral'
+                
+                return sentimiento, polaridad, subjetividad
+            except Exception as e:
+                return 'Neutral', 0.0, 0.5
         
-        palabras_negativas = {
-            'malo', 'mala', 'terrible', 'pésimo', 'deficiente', 'inadecuado', 'insuficiente',
-            'problemático', 'confuso', 'aburrido', 'desorganizado', 'poco', 'falta', 'mejorar',
-            'negativo', 'deficiente', 'escaso', 'limitado', 'débil', 'ineficiente'
-        }
+        # Analizar todas las respuestas
+        with st.spinner("Analizando sentimientos con TextBlob..."):
+            resultados = df_pregunta_sent['respuesta'].apply(analizar_sentimiento_textblob)
+            df_pregunta_sent['sentimiento'] = resultados.apply(lambda x: x[0])
+            df_pregunta_sent['polaridad'] = resultados.apply(lambda x: x[1])
+            df_pregunta_sent['subjetividad'] = resultados.apply(lambda x: x[2])
         
-        # Clasificar respuestas
-        def clasificar_sentimiento(texto):
-            texto_lower = texto.lower()
-            puntos_positivos = sum(1 for palabra in palabras_positivas if palabra in texto_lower)
-            puntos_negativos = sum(1 for palabra in palabras_negativas if palabra in texto_lower)
-            
-            if puntos_positivos > puntos_negativos:
-                return 'Positivo'
-            elif puntos_negativos > puntos_positivos:
-                return 'Negativo'
-            else:
-                return 'Neutral'
+        # Estadísticas y visualizaciones
+        st.markdown("---")
         
-        df_pregunta_sent['sentimiento'] = df_pregunta_sent['respuesta'].apply(clasificar_sentimiento)
+        # Métricas principales
+        col1, col2, col3, col4 = st.columns(4)
         
-        # Estadísticas
+        promedio_polaridad = df_pregunta_sent['polaridad'].mean()
+        promedio_subjetividad = df_pregunta_sent['subjetividad'].mean()
         conteo_sentimientos = df_pregunta_sent['sentimiento'].value_counts()
         
-        col1, col2 = st.columns([1, 1])
+        col1.metric("Polaridad Promedio", f"{promedio_polaridad:.3f}", 
+                   help="De -1 (negativo) a +1 (positivo)")
+        col2.metric("Subjetividad Promedio", f"{promedio_subjetividad:.3f}",
+                   help="De 0 (objetivo) a 1 (subjetivo)")
+        col3.metric("Respuestas Positivas", 
+                   conteo_sentimientos.get('Positivo', 0),
+                   f"{conteo_sentimientos.get('Positivo', 0) / len(df_pregunta_sent) * 100:.1f}%")
+        col4.metric("Respuestas Negativas", 
+                   conteo_sentimientos.get('Negativo', 0),
+                   f"{conteo_sentimientos.get('Negativo', 0) / len(df_pregunta_sent) * 100:.1f}%")
+        
+        st.markdown("---")
+        
+        # Visualizaciones en dos columnas
+        col1, col2 = st.columns(2)
         
         with col1:
-            # Gráfico de torta
+            # Gráfico de torta - Distribución de sentimientos
             fig_sent = px.pie(
                 values=conteo_sentimientos.values,
                 names=conteo_sentimientos.index,
@@ -254,19 +300,60 @@ with tab3:
                     'Positivo': '#28a745',
                     'Neutral': '#ffc107',
                     'Negativo': '#dc3545'
-                }
+                },
+                hole=0.4
             )
             st.plotly_chart(fig_sent, use_container_width=True)
+            
+            # Histograma de polaridad
+            fig_pol = px.histogram(
+                df_pregunta_sent,
+                x='polaridad',
+                nbins=20,
+                title='Distribución de Polaridad',
+                labels={'polaridad': 'Polaridad', 'count': 'Frecuencia'},
+                color_discrete_sequence=['steelblue']
+            )
+            fig_pol.add_vline(x=0, line_dash="dash", line_color="red", 
+                            annotation_text="Neutral")
+            st.plotly_chart(fig_pol, use_container_width=True)
         
         with col2:
-            st.markdown("#### Resumen")
-            for sentimiento, cantidad in conteo_sentimientos.items():
-                porcentaje = (cantidad / len(df_pregunta_sent)) * 100
-                st.metric(sentimiento, cantidad, f"{porcentaje:.1f}%")
+            # Scatter plot: Polaridad vs Subjetividad
+            fig_scatter = px.scatter(
+                df_pregunta_sent,
+                x='polaridad',
+                y='subjetividad',
+                color='sentimiento',
+                title='Polaridad vs Subjetividad',
+                labels={'polaridad': 'Polaridad', 'subjetividad': 'Subjetividad'},
+                color_discrete_map={
+                    'Positivo': '#28a745',
+                    'Neutral': '#ffc107',
+                    'Negativo': '#dc3545'
+                },
+                hover_data=['respuesta']
+            )
+            fig_scatter.add_hline(y=0.5, line_dash="dash", line_color="gray")
+            fig_scatter.add_vline(x=0, line_dash="dash", line_color="gray")
+            st.plotly_chart(fig_scatter, use_container_width=True)
+            
+            # Histograma de subjetividad
+            fig_subj = px.histogram(
+                df_pregunta_sent,
+                x='subjetividad',
+                nbins=20,
+                title='Distribución de Subjetividad',
+                labels={'subjetividad': 'Subjetividad', 'count': 'Frecuencia'},
+                color_discrete_sequence=['coral']
+            )
+            fig_subj.add_vline(x=0.5, line_dash="dash", line_color="red", 
+                             annotation_text="Media")
+            st.plotly_chart(fig_subj, use_container_width=True)
         
-        # Mostrar ejemplos por sentimiento
+        # Mostrar ejemplos por sentimiento (ANÓNIMAS)
         st.markdown("---")
-        st.markdown("#### Ejemplos de Respuestas por Sentimiento")
+        st.markdown("#### Ejemplos de Respuestas por Sentimiento (Anónimas)")
         
         sent_tabs = st.tabs(["Positivo", "Neutral", "Negativo"])
         
@@ -276,8 +363,16 @@ with tab3:
                 if not respuestas_sent.empty:
                     num_mostrar = min(5, len(respuestas_sent))
                     st.markdown(f"**Mostrando {num_mostrar} de {len(respuestas_sent)} respuestas**")
-                    for _, row in respuestas_sent.head(num_mostrar).iterrows():
-                        with st.expander(f"Respuesta de {row['nombre_completo'][:20]}..."):
+                    
+                    # Ordenar por polaridad para mostrar ejemplos más representativos
+                    if sentimiento == 'Positivo':
+                        respuestas_sent = respuestas_sent.sort_values('polaridad', ascending=False)
+                    elif sentimiento == 'Negativo':
+                        respuestas_sent = respuestas_sent.sort_values('polaridad', ascending=True)
+                    
+                    for i, (_, row) in enumerate(respuestas_sent.head(num_mostrar).iterrows(), 1):
+                        participante_id = row.get('participante_anonimo', f'Participante Anónimo {i}')
+                        with st.expander(f"{participante_id} - Polaridad: {row['polaridad']:.3f} | Subjetividad: {row['subjetividad']:.3f}"):
                             st.write(row['respuesta'])
                 else:
                     st.info(f"No hay respuestas clasificadas como {sentimiento}")

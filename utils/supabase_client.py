@@ -85,14 +85,37 @@ def obtener_inscripciones_workshop() -> pd.DataFrame:
     return ejecutar_query("asistencias", orden="created_at")
 
 
+def obtener_asistencias() -> pd.DataFrame:
+    """Obtiene todas las asistencias con fecha_asistencia para análisis temporal"""
+    return ejecutar_query("asistencias", orden="fecha_asistencia")
+
+
 def obtener_equipos_concurso() -> pd.DataFrame:
     """Obtiene todos los equipos del concurso"""
     return ejecutar_query("equipos_concurso", orden="fecha_registro")
 
 
-def obtener_respuestas_encuesta() -> pd.DataFrame:
-    """Obtiene todas las respuestas de la encuesta"""
-    return ejecutar_query("encuesta_respuestas", orden="timestamp")
+def obtener_respuestas_encuesta(anonimizar: bool = False) -> pd.DataFrame:
+    """
+    Obtiene todas las respuestas de la encuesta
+    
+    Args:
+        anonimizar: Si es True, oculta información identificable del participante
+        
+    Returns:
+        DataFrame con las respuestas (anonimizadas si se solicita)
+    """
+    df = ejecutar_query("encuesta_respuestas", orden="timestamp")
+    
+    if anonimizar and not df.empty:
+        # Generar IDs anónimos únicos
+        if 'participante_email' in df.columns:
+            unique_emails = df['participante_email'].unique()
+            email_to_id = {email: f"Participante_{i+1:03d}" for i, email in enumerate(unique_emails)}
+            df['participante_anonimo'] = df['participante_email'].map(email_to_id)
+            df = df.drop(columns=['participante_email', 'nombre_completo'], errors='ignore')
+        
+    return df
 
 
 def obtener_respuestas_por_pregunta(pregunta_id: int) -> pd.DataFrame:

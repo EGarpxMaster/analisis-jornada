@@ -25,7 +25,7 @@ st.set_page_config(
 st.title("Análisis de Encuesta - Jornada de Ingeniería Industrial 2025")
 st.markdown("Análisis cuantitativo de respuestas de calificación")
 
-# Cargar todas las respuestas de encuesta
+# Cargar todas las respuestas de encuesta (SIN anonimizar - datos cuantitativos)
 with st.spinner("Cargando respuestas de encuesta..."):
     df_respuestas = obtener_respuestas_encuesta()
 
@@ -38,13 +38,13 @@ st.subheader("Estadísticas Generales")
 col1, col2, col3, col4 = st.columns(4)
 
 total_respuestas = len(df_respuestas)
-participantes_unicos = df_respuestas['participante_email'].nunique()
+participantes_unicos = df_respuestas['participante_email'].nunique() if 'participante_email' in df_respuestas.columns else 0
 preguntas_respondidas = df_respuestas['pregunta_id'].nunique()
 
 col1.metric("Total de Respuestas", total_respuestas)
 col2.metric("Participantes Únicos", participantes_unicos)
 col3.metric("Preguntas Respondidas", preguntas_respondidas)
-col4.metric("Promedio Respuestas/Participante", round(total_respuestas / participantes_unicos, 1))
+col4.metric("Promedio Respuestas/Participante", round(total_respuestas / participantes_unicos, 1) if participantes_unicos > 0 else 0)
 
 st.markdown("---")
 

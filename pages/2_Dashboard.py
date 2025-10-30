@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT))
 from utils.supabase_client import (
     obtener_participantes,
     obtener_inscripciones_workshop,
+    obtener_asistencias,
     obtener_equipos_concurso,
     obtener_actividades,
     obtener_estadisticas_participacion
@@ -34,6 +35,7 @@ st.markdown("Análisis en tiempo real de datos del evento")
 with st.spinner("Cargando datos desde Supabase..."):
     df_participantes = obtener_participantes()
     df_inscripciones = obtener_inscripciones_workshop()
+    df_asistencias = obtener_asistencias()  # Para evolución temporal
     df_equipos = obtener_equipos_concurso()
     stats = obtener_estadisticas_participacion()
 
@@ -101,26 +103,39 @@ if not df_inscripciones.empty:
 else:
     st.info("No hay datos de inscripciones a workshops.")
 
-
-# Evolución temporal de inscripciones por hora
-st.subheader("Evolución Temporal de Inscripciones por Hora")
-if not df_inscripciones.empty and 'created_at' in df_inscripciones.columns:
-    df_temp = df_inscripciones.copy()
-    df_temp['created_at'] = pd.to_datetime(df_temp['created_at'], errors='coerce')
-    df_temp['hora'] = df_temp['created_at'].dt.floor('h')
-    hora_counts = df_temp.groupby('hora').size().reset_index(name='Cantidad')
-    fig_hora = px.line(
-        hora_counts, 
-        x='hora', 
+# Evolución temporal de asistencias (dato real)
+st.subheader("Evolución Temporal de Asistencias")
+if not df_asistencias.empty and 'fecha_asistencia' in df_asistencias.columns:
+    df_temp = df_asistencias.copy()
+    df_temp['fecha_asistencia'] = pd.to_datetime(df_temp['fecha_asistencia'], errors='coerce')
+    
+    # Determinar si agrupar por hora o por día según el rango de fechas
+    rango_dias = (df_temp['fecha_asistencia'].max() - df_temp['fecha_asistencia'].min()).days
+    
+    if rango_dias <= 2:  # Si es 2 días o menos, agrupar por hora
+        df_temp['periodo'] = df_temp['fecha_asistencia'].dt.floor('h')
+        titulo = 'Asistencias por Hora'
+        label_x = 'Hora'
+    else:  # Si es más de 2 días, agrupar por día
+        df_temp['periodo'] = df_temp['fecha_asistencia'].dt.date
+        titulo = 'Asistencias por Día'
+        label_x = 'Fecha'
+    
+    periodo_counts = df_temp.groupby('periodo').size().reset_index(name='Cantidad')
+    
+    fig_asist = px.line(
+        periodo_counts, 
+        x='periodo', 
         y='Cantidad', 
         markers=True, 
-        title='Inscripciones por Hora',
-        labels={'hora': 'Hora', 'Cantidad': 'Número de Inscripciones'}
+        title=titulo,
+        labels={'periodo': label_x, 'Cantidad': 'Número de Asistencias'}
     )
-    fig_hora.update_traces(line_color='#1f77b4', line_width=2, marker=dict(size=8))
-    st.plotly_chart(fig_hora, use_container_width=True)
+    fig_asist.update_traces(line_color='#1f77b4', line_width=2, marker=dict(size=8))
+    fig_asist.update_layout(hovermode='x unified')
+    st.plotly_chart(fig_asist, use_container_width=True)
 else:
-    st.info("No hay datos de fechas de inscripciones.")
+    st.info("No hay datos de fechas de asistencias.")
 
 # Equipos por estado_registro
 st.subheader("Equipos por Estado de Registro")
@@ -135,10 +150,33 @@ else:
 # Evolución temporal de equipos registrados
 st.subheader("Evolución Temporal de Registro de Equipos")
 if not df_equipos.empty and 'fecha_registro' in df_equipos.columns:
-    df_equipos['fecha_registro'] = pd.to_datetime(df_equipos['fecha_registro'], errors='coerce')
-    df_equipos['fecha'] = df_equipos['fecha_registro'].dt.date
-    eq_fecha_counts = df_equipos.groupby('fecha').size().reset_index(name='Cantidad')
-    fig_eq_fecha = px.line(eq_fecha_counts, x='fecha', y='Cantidad', markers=True)
+    df_equipos_temp = df_equipos.copy()
+    df_equipos_temp['fecha_registro'] = pd.to_datetime(df_equipos_temp['fecha_registro'], errors='coerce')
+    
+    # Determinar si agrupar por hora o por día según el rango de fechas
+    rango_dias_eq = (df_equipos_temp['fecha_registro'].max() - df_equipos_temp['fecha_registro'].min()).days
+    
+    if rango_dias_eq <= 2:  # Si es 2 días o menos, agrupar por hora
+        df_equipos_temp['periodo'] = df_equipos_temp['fecha_registro'].dt.floor('h')
+        titulo_eq = 'Registro de Equipos por Hora'
+        label_x_eq = 'Hora'
+    else:  # Si es más de 2 días, agrupar por día
+        df_equipos_temp['periodo'] = df_equipos_temp['fecha_registro'].dt.date
+        titulo_eq = 'Registro de Equipos por Día'
+        label_x_eq = 'Fecha'
+    
+    eq_fecha_counts = df_equipos_temp.groupby('periodo').size().reset_index(name='Cantidad')
+    
+    fig_eq_fecha = px.line(
+        eq_fecha_counts, 
+        x='periodo', 
+        y='Cantidad', 
+        markers=True,
+        title=titulo_eq,
+        labels={'periodo': label_x_eq, 'Cantidad': 'Número de Equipos'}
+    )
+    fig_eq_fecha.update_traces(line_color='#ff7f0e', line_width=2, marker=dict(size=8))
+    fig_eq_fecha.update_layout(hovermode='x unified')
     st.plotly_chart(fig_eq_fecha, use_container_width=True)
 else:
     st.info("No hay datos de fechas de registro de equipos.")

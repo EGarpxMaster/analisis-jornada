@@ -15,6 +15,17 @@ SUPABASE_KEY=tu_anon_key_aqui
 pip install -r requirements.txt
 ```
 
+### Configurar TextBlob para Análisis de Sentimientos
+
+Para habilitar el análisis de sentimientos avanzado:
+
+```bash
+pip install textblob
+python -m textblob.download_corpora
+```
+
+Ver [README_TEXTBLOB.md](README_TEXTBLOB.md) para más detalles.
+
 ## Paso 3: Ejecutar la aplicación localmente
 
 ```bash
@@ -51,8 +62,28 @@ analisis-jornada/
 └── .env.example                    # Ejemplo de credenciales
 ```
 
+## Funcionalidades principales
+
+### 📊 Análisis de Datos
+- **Tablas de datos**: Visualiza participantes, inscripciones, equipos y actividades
+- **Dashboard**: KPIs y gráficos interactivos con Plotly
+- **Evolución temporal**: Análisis de asistencias y registro de equipos por hora/día
+
+### 📈 Análisis de Encuestas
+- **Cuantitativo**: Análisis de calificaciones 1-5 con estadísticas y gráficos
+- **Cualitativo**: Análisis de respuestas de texto largo
+- **Privacidad**: Todas las respuestas son **anónimas** (no se muestran emails ni nombres)
+
+### 💬 Análisis de Sentimientos Avanzado
+- **TextBlob NLP**: Análisis de polaridad (-1 a +1) y subjetividad (0 a 1)
+- **Visualizaciones**: Scatter plots, histogramas, distribuciones
+- **Clasificación automática**: Positivo, Neutral, Negativo
+- **Ejemplos ordenados**: Por nivel de polaridad
+
 ## Notas importantes
 
 - NO subas el archivo `.env` a Git
 - Agrega `.env` a tu `.gitignore`
 - Las credenciales de Supabase están en: Supabase Dashboard > Settings > API
+- Las respuestas de encuestas se muestran de forma **anónima** para proteger la privacidad
+- El análisis temporal detecta automáticamente si usar agrupación por hora o por día
